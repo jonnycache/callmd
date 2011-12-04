@@ -1,0 +1,59 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<link href="../callmd-052809.css" rel="stylesheet" type="text/css">
+<body onLoad="MM_preloadImages('../images/search2r_02.jpg')">
+<div id="header"><a href="../index.html"><img src="../images/callmd-logo-w.jpg" alt="" name="" width="286" height="79" hspace="22" vspace="50" border="0" align="left" /></a>
+
+
+  <form name="form1" method="post" action="">
+
+<table width="661" border="0" align="right" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="547" rowspan="4" valign="bottom" class="headbg"><div class="headsearchbx">
+        <label>
+            <input name="textfield" type="text" class="input" id="textfield" value="Symptom, Wellness, Doctor." size="55">
+          </label>
+      </div></td>
+      <td><a href="#"><img src="../images/search2_02.jpg" alt="" name="Image31" width="96" height="45" border="0" id="Image31" onmouseover="MM_swapImage('Image31','','../images/search2r_02.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+      <td width="17" rowspan="4"><img name="" src="../images/search2_03.jpg" width="18" height="163" alt="" /></td>
+    </tr>
+    <tr>
+      <td width="96"><a href="http://callmd.adam.com/content.aspx?productId=117&gid=200000"><img src="../images/search2_04.jpg" alt="" name="" width="96" height="70" border="0" /></a></td>
+    </tr>
+    <tr>
+      <td>
+        <input type="image" name="imageField2" id="imageField2" src="../images/search2_05.jpg">
+</td>
+    </tr>
+    <tr>
+      <td><img name="" src="../images/search2_06.jpg" width="96" height="18" alt="" /></td>
+    </tr>
+  </table>
+    </form>
+  
+</div>

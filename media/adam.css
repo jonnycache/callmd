@@ -1,0 +1,1825 @@
+body
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+	color:#333333;
+}
+
+pre
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+	color:#333333;
+    margin-bottom: 5px;
+}
+
+.bodytext {
+         font-size: 12px;
+         font-family: Tahoma, Arial, Helvetica, sans-serif;
+		 color:#333333;
+		 }
+.bodytextbold {
+         font-size: 12px;
+         font-family: Tahoma, Arial, Helvetica, sans-serif;
+		 color:#333333;
+		 font-weight:bold;
+		 }
+
+.ADAMContent {
+text-align: left;
+width: 100%;
+position: relative;
+margin: 0px auto;
+top: 0;
+z-index: 0;
+}
+
+.ADAMHeader {text-align: left;
+padding: 1px;
+width: 100%;
+margin: 5px;
+float: left;
+position: relative;
+}
+
+.ADAMMaindex {text-align: left;
+padding: 1px;
+width: 580px;
+margin: 5px;
+float: left;
+position: relative;
+	}
+
+.ADAMAlphaList {text-align: left;
+font-size: 12px;
+width: 100%;
+float: left;
+}
+
+.ADAMAlphaListCS A:link {font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+font-size: 12px;
+color: #4D4C86;
+}
+
+.ADAMAlphaListCS A:visited {font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+font-size: 12px;
+color: #4D4C86;
+}
+
+.ADAMAlphaListCS A:active {font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+font-size: 12px;
+
+color: #4D4C86;
+}
+
+.ADAMAlphaListCS A:hover {font-family: Arial, Helvetica, sans-serif;
+text-decoration:underline;
+font-size: 12px;
+color: #4D4C86;
+}
+
+.ADAMAlphaListCenter {text-align: left;
+width: 100%;
+float: left;
+}
+.ADAMCopyright {text-align: center;
+padding: 1px;
+font-size: 9px;
+width: 98%;
+margin: 5px;
+position: relative;
+}
+
+.ADAMTnails {text-align: left;
+align: center;
+padding: 5px;
+width: 100%;
+margin: 5px;
+float: left;
+position: relative;
+}
+
+.ADAMTnail {
+width: 180px;
+min-height: 85px; 
+font-size: 9px;
+border: 1px;
+margin: 5px;
+text-align: center;
+float: left;
+padding: 2px;
+z-index: 5;}
+
+.ADAMSubBannerText {
+font-weight: bold;
+font-size: 11px;
+text-align: left;
+width: 185px;
+float: left;
+margin: 2px;
+z-index: 2;
+}
+
+.ADAMOuter {text-align: left;
+padding: 5px;
+width: 98%;
+margin-left: 5px;
+margin-right: 5px;
+margin-top:5px;
+position: relative;
+z-index: 1;
+}
+
+
+.ADAMMaindexInner {
+text-align: left;
+border: 0px;
+border-style: groove;
+border-color:#8D8D8D;
+padding: 1px;
+width: 250px;
+float: left;
+margin: 2px;
+z-index: 2;}
+
+.ADAMInner {
+font-weight: bold;
+text-align: left;
+border: 0px;
+border-style: groove;
+border-color:#8D8D8D;
+padding: 1px;
+width: 270px;
+float: left;
+margin: 2px;
+z-index: 2;}
+
+.ADAMFloat {
+width: 128px;
+border: 1px;
+margin-right: 3px;
+float: left;
+padding-left: 5 px;
+z-index: 5;}
+
+
+.ADAMFloatRight {
+float: right;
+z-index: 5;}
+
+.ADAMFloatLeft {
+float: left;
+z-index: 5;
+}
+
+.ADAMFloatFree {
+float: left;
+z-index: 5;
+}
+
+.ADAMNews {
+font-weight: bold;
+text-align: left;
+border: 2px;
+background-color :#F8F8F8;
+border-style: groove;
+border-color:#8D8D8D;
+padding: 5px;
+float: left;
+width: 555px;
+height: 70px;
+margin: 5px;
+}
+
+.ADAMReviewInfo
+{
+    font-size: 10px;
+}
+
+.ADAMDisclaimer
+{
+    font-size: 10px;
+    text-align: left;
+    float: left;
+    width: 100%;
+}
+
+.ADAMURAC
+{
+    font-size: 10px;
+    text-align: left;
+}
+
+.ADAMRightNavTnail
+{
+	text-align: center;
+	min-height:80px;
+	width: 100px;
+	margin: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+	font-size: 10px;
+}
+
+.ADAMFeaturedImage
+{
+	height: auto;
+	width: 202px;
+	border-style: solid;
+	border-width: 1px;
+	background-color:#ffffff;
+	float: right;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	font-size: 11px;
+	text-align:left;
+	vertical-align:text-top;
+	margin: 5px;
+	margin-left: 20px;
+	z-index: 10;
+}
+
+.ADAMRightNav
+{
+	width: 204px;
+	float: right;
+	margin: 5px;
+	margin-left: 20px;
+	z-index: 9;
+}
+
+.ADAMRightNavCS
+{
+	width: 204px;
+	float: right;
+	margin: 5px;
+	margin-left: 20px;
+	z-index: 9;
+}
+
+.ADAMInlineTnail
+{
+	width: 60px;
+	height: 60px; 
+	border: 1px;
+}
+
+.ADAMInlineFull
+{
+	width: 400px;
+	/* height:expression(420 + "px");  peh - currently removed to remedy cr1140 */
+}
+
+.ADAMInlineGraphic
+{
+	/* margin-top:expression(-10 + "px");  nu - removed for bug cr#710 */
+	margin: 10px;
+	padding: 5px;
+	min-height: 60px;
+	position: relative;
+	z-index: -1;
+}
+
+.ADAMTextBox
+{
+	vertical-align: middle;
+	text-align: left;
+	padding: 5px;
+	background-color:#F9F6E7;
+	min-height: 50px;
+	/*  height:expression(50 + "px"); peh - currently removed to remedy cr1140 */
+}
+
+h2
+{
+    font-size: 18px;
+}
+
+
+p
+{
+    font-size: 12px;
+}
+
+li
+{
+    font-size: 12px;
+}
+
+h3
+{
+    font-size: 16px;
+	color:#5E583E;
+}
+
+h4
+{
+    font-size: 12px;
+}
+
+A:link
+{
+	color:#000080
+}
+
+A:visited
+
+{
+	color:#000080
+}
+
+A:hover
+{
+	color:#49627A 
+}
+
+.referenceNavigation
+{
+	height: auto;
+	width: 204px;
+	background-image:url(../../graphics/global/rhn_bg.gif);
+	background-repeat:repeat;
+	float: right;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	font-size: 11px;
+	text-align:left;
+	vertical-align:text-top;
+	margin: 5px;
+	margin-left: 0px;
+	z-index: 10;
+}
+
+.referenceNavigationBodyCS
+{
+	height: auto;
+	width: auto;
+	background-image:url(../../graphics/global/rhn_bg_cs2.jpg);
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	position: relative;
+}
+
+.referenceNavigationHeaderCS
+{
+	height: 10px;
+	width: auto;
+	background-image:url(../../graphics/global/rhn_bg_cs.jpg);
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 2px;
+	padding-top: 5px;
+	font-weight: bold;
+	position: relative;
+}
+
+
+
+.referenceNavigationHeader
+{
+	height: 10px;
+	width: auto;
+	background-image:url(../../graphics/global/rhn_bg_head.jpg);
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 2px;
+	padding-top: 5px;
+	font-weight: bold;
+	position: relative;
+}
+
+.referenceNavigationBody
+{
+	height: auto;
+	width: 100%;
+	background-image:url(../../graphics/global/rhn_bg.gif);
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	position: relative;
+}
+
+.referenceNavigationRelatedHeader
+{
+	height: 10px;
+	width: 100%;
+	background-image:url(../../graphics/global/rhn_bg.gif);
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 2px;
+	padding-top: 5px;
+	font-weight: bold;
+	position: relative;
+}
+
+.referenceNavigationRelatedHeaderWhite
+{
+	height: 30px;
+	width: 100%;
+	vertical-align:bottom;
+	background-image:url(../../graphics/global/rhn_nav_bot.jpg);
+	background-repeat:no-repeat;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 2px;
+	padding-top: 0px;
+	position: relative;
+}
+
+.referenceNavigationHeaderImage
+{
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	float:inherit;
+	background-image:url(../../graphics/global/rhn_nav_logo2.jpg);
+	background-repeat:no-repeat;
+}
+
+
+.referenceNavigationBullet
+{
+    font-size: 15px;
+	color: #cccccc;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+}
+
+.referenceNavigationText
+{
+  	font-size: 12px;
+	padding-left: 5px;
+	z-index: 11;
+}
+	
+.globalFontFamily
+{
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.back
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.title
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.titleWhite
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    font-weight: bold;
+	color:#FFFFFF;
+}
+
+.headline
+{
+    font-size: 22px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.images
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+.bodyTextMediumNonBold
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+}
+
+.bodyTextMedium
+{
+    font-size: 11px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-weight: Bold;
+}
+
+
+.bodyTextWhite
+{
+    font-size: 12px;
+	font-weight: normal;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+	color:#333333;
+}
+
+.linkTextDkBlue
+{
+    font-size: 12px;
+	font-weight: normal;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+	color:#807752;
+}
+
+.disclaimer
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.footer
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.reviewInfo
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+/* Begin HRA classes*/
+
+
+/* hra navigation */
+input.button{border-style:none; background-color:#DFDCCE; color:#333333; font-weight:bold; cursor:hand;}		
+		
+td.hraPrevious{text-align:right; width:225px;}
+td.hraNext{text-align:left; width:225px;}
+
+/* hra questions */						
+table.hraQuestion{border-style:none; border-collapse:collapse; margin-bottom:5px;}	
+					
+td.hraQuestion{vertical-align:top; font-size:8pt; font-weight:normal; width:225px; padding:10px; color:black;
+			   border-style:none; border-collapse:collapse; background-color:#FAF8F3}			   
+
+/* hra answers */				
+table.hraAnswers{border-style:solid; border-collapse:collapse; border-width:0; padding:0; border-color:#93B77B}
+
+tr.hraAnswerOdd{background-color:#F3F0E2}		
+tr.hraAnswerEven{background-color:#DFDCCE}		
+		
+td.hraAnswer{vertical-align:middle; font-size:8pt; width:225px; padding:3px}				
+td.hraInput{vertical-align:top}	
+		
+/* hra intro */														
+.hraAssessmentName{font-size:12pt; font-weight:bold; color:#333333; padding-bottom:5px}	
+.hraAssessmentInstructions{font-size:11px; color:#333333; padding-bottom:10px}
+.hraAssessmentSummary{margin-top:6px; font-size:11px; margin-bottom:25px; color:black}	
+
+.hraTabBackground{border-style:none; background-color:#F3F0E2}
+.hraTabText{padding-left:5px; padding-bottom:1px; font-size:12px; font-weight:bold; background-color:#F3F0E2}
+
+/* hra results */
+.hraResultGroup1{font-size:18px; font-weight:bold; color:#660000}
+.hraResultGroup2{font-size:18px; font-weight:bold; color:#996600}
+.hraResultGroup3{font-size:18px; font-weight:bold; color:#006633}
+.hraPrinterFriendly{text-align:right}
+
+/* hra related content */
+.hraRelatedContentHeader{font-size:14px; font-weight:bold; background:#999999; color:#FFFFFF}
+.hraRelatedContentGroup{font-size:13px; font-weight:bold; padding-top:5; background:#e0e0e0; color:#333333}
+.hraRelatedContentLink{font-size:12px; font-weight:normal; color:#333333}
+.hraRelatedContentBullet{vertical-align:top; font-weight:bold; color:#BBBBBB}
+
+/* hra menu */
+.hraMenuBackground{background-color:#F3F0E6; font-size: 12px; font-weight: bold}
+.hraMenuHeaderBackground{background-color:#E8E3D0; padding: 4px; font-size: 14px; font-weight: bold; color:#333333}
+.hraMenuHeaderText{font-size:12px; font-weight:normal; color:#333333}
+
+.hraAssessmentGroupName {background-color:#B6B4AB; border:0px; font-weight:bold; font-size:11pt; padding:2px; color:#E9E8E2}	
+.hraAssessmentGroupSummary {margin-top:6px; font-size:11px; margin-bottom:25px; color:#369}		
+
+.hraAssessmentLink:link {color: #5f7e9e}
+.hraAssessmentLink:visited {color: #5f7e9e}
+.hraAssessmentLink:hover {COLOR: #49627a}
+
+
+		
+
+/* Begin PHU classes*/
+
+.phuBody
+ {
+	background-color: #ffffff;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:10pt;
+	color: #282828;
+	margin:4px;
+}
+.phuTitleTable
+{
+	background-color: #B6B4AB;
+	border: 0px;
+	font-weight: bold;
+	font-size: 11pt;
+	padding: 2px;
+	color: #000000;;
+}
+.phuSearchTable
+{
+	background-color: #CCCCCC;
+	border: 0px;
+	font-weight: bold;
+	font-size: 11pt;
+	padding: 2px;
+}
+.phuFavPrintTable
+{
+	background-color: #E9E8E2;
+	border: 0px none;
+	font-weight: bold;
+	padding: 4px;
+	font-size: 11pt;
+}
+.phuAlphaTable
+{
+	font-size: 10pt;
+	padding-top: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+}
+.phuContentTable
+{
+	font-size:10pt;
+	padding-top: 0px;
+	padding-left: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	background-color: #E9E8E2; 
+}
+.phuTextTable
+{
+	font-size:10pt;
+	padding-top: 0px;
+	padding-left: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+}
+.phuUserInfo
+{
+	font-size:10pt;
+	text-decoration: none;
+	font-weight: normal;
+}
+.phuBrandHeader
+{
+	font-size:10pt;
+	text-decoration: none;
+	font-weight: normal;
+	padding-top: 4px;
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-bottom: 0px;
+	background-color: #FFFFFF;
+}
+
+
+/* Begin Pregnancy product classes*/
+
+.subheadPeach {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #FF9999;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadGreen {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+
+	line-height: 20px;
+	color: #669966;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadPurple {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #666699;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadRedPurple {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #CC33CC;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadOrange {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #FF6600;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadBlue {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #3399FF;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadMagenta {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: magenta;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadMaroon {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #77172F;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadDkBlue {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #0B0E57;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadLime {
+	border-style: solid;
+	border-color:  #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #9CBB0E;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadBurntO {
+	border-style: solid;
+	border-color:  #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #C47901;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadPeriwinkle {
+	border-style: solid;
+	border-color:  #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #878BBC;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadPink {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #FF6699;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subheadTeal {
+	border-style: solid;
+	border-color: #666699;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	text-align: left;
+	line-height: 20px;
+	color: #669999;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.funFacts { font-size: 14pt; color: white; font-weight:bold; }
+
+
+/* End Pregnancy product classes*/
+/* Begin Wellness Tools classes*/ 
+  
+ .WTtitleTable 
+ { 
+      background-color: #FFFFFF; 
+      border: 0px; 
+      font-weight: bold; 
+ } 
+ .WTinputBox 
+ { 
+      font-weight: bold; 
+      border: 1px #CCCCCC solid; 
+ } 
+ .WTnotes 
+ { 
+      font-size: 10pt; 
+      padding: 10px; 
+ } 
+ .WTinputTable 
+ { 
+      background-color: #F2F2F2; 
+      border: 1px #CCCCCC solid; 
+ } 
+ .WTinfoTable 
+ { 
+      background-color: #DEDEDE; 
+      padding: 10px; 
+ } 
+ .WTmoreInfoTable 
+ { 
+      font-size: 11pt; 
+ } 
+ .WTcolorBar 
+ { 
+      background-color: #CCCCCC; 
+      padding: 5px; 
+      font-size: 12pt; 
+ } 
+ .WTtableLine 
+ { 
+      border: 1px #CCCCCC solid; 
+      border-collapse: collapse; 
+      border-spacing: 0px; 
+ } 
+ .WTdisclaimer 
+ { 
+      background-color: #ffffff; 
+      font-family:Verdana,Helvetica,Arial,sans-serif; 
+      font-size: 11px; 
+      color: #000; 
+      margin:0px; 
+ } 
+ .altBoldLg 
+ { 
+      font-weight: bold; 
+ }
+
+/* CARE GUIDES */
+
+.CGindexSubhead {
+	font-family: verdana,arial,geneva,helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+	}
+
+.CGGlossaryIndex {
+	width: 200px;
+	height: 500px;
+	border: solid 1px #cccccc;
+	border-right: none;
+	overflow: auto;
+	padding-left: 4px;
+}
+
+.CGGlossaryDef {
+	display:none;
+}
+
+.CGGlossaryPlaceHolder {
+	padding-left: 8px;
+}
+
+.CGclearLeft {
+	clear:left;
+	font-size: 12px;
+}
+
+.CGfloatRight {
+	float:right;
+	font-size:12px;
+}
+
+.CGRightNav {
+	font-size:12px;
+}
+
+.CGgrayIndexTable {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #E6E6E6;
+}
+
+.CGdisclaimer {
+	font-size: 10px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+	
+.CGHeader {
+	background-color: #006633;
+}
+	
+.CGBottomNavButton {
+	background-color: #006633;
+	cursor: pointer;
+	}
+
+.CGBottomSmallColorBar {
+	width: 100%;
+	border-style: double;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 3px;
+	border-color: #006633;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	clear: left;
+	}
+
+.CGGlossaryTable {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+	
+.CGheaderText {
+	display: block;
+	color: white;
+	font-family: verdana,arial,geneva,helvetica, sans-serif;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold
+	}
+	
+.CGSubhead {
+	font-family: verdana,arial,geneva,helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: -12px;
+	color: #006633
+	}
+
+.CGMainMenu {
+	font-size:10px;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	visibility:hidden;
+	background: #006633;
+	width: 300px;
+	padding: 3px;
+	color: white
+}
+	
+.CGBottomMenu {
+	font-size:10px;
+	position: absolute;
+	visibility:hidden;
+	background: #006633;
+	width: 300px;
+	padding: 3px;
+	color: white;
+	border: solid black;
+	border-width: 1px 2px 2px 1px;
+}
+
+.CGInnerBottomMenu {
+	background: #006633;
+	width: 300px;
+}
+
+a.CGMenuLink, a:visited.CGMenuLink, a:active.CGMenuLink {
+	display: block;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-style: solid;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-color: black;
+	margin-bottom: 2px
+	}
+
+a:hover.CGMenuLink {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-color: white;
+	}
+		
+.CGgrayBox {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #E6E6E6;
+	width: 400px; 
+	}
+	
+.CGgrayBoxSubhead {
+	font-family: verdana,arial,geneva,helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px
+	}
+	
+.CGgrayBoxText {
+	font-family: verdana,arial,geneva,helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px
+	}
+	
+.CGgrayTable {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #E6E6E6;
+	clear: left;
+	padding-bottom: 10px;
+	}
+	
+.CGimageSwitchText{
+	font-family: verdana,arial,geneva,helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	cursor: hand;
+	padding: 3px;
+	color: #006633;
+	background-color: #99FFCC;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 2px;
+	margin-top: 4px;
+	}
+	
+.CGimageSwitchTextClick{
+	margin-top: 4px;
+	margin: 2px;
+	font-family: verdana,arial,geneva,helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	cursor: hand;
+	padding: 3px;
+	color: white;
+	background-color: #006633;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	}
+	
+.CGthumbNail {
+	display: inline;
+	float: left;
+	padding: 0px;
+	margin-right: 10px;
+	margin-left: 0px
+	}
+	
+.CGthumbNailBox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #003333;
+	background-color: #99FFCC;
+	width: 400px;
+	height: 60px;
+	padding: 0px;
+	clear: left
+	align: center;
+	}
+	
+.CGthumbNailText {
+	font-family: verdana,arial,geneva,helvetica, sans-serif;
+	font-size: 10px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	}
+
+.CGmultimedia {
+	margin-top: 20px;
+	text-align: center;
+	}
+
+.CGtdColor1 {
+	background-color: #99CCFF;
+	}
+
+.CGtdColor2 {
+	background-color: #FFFFCC;
+	}
+
+.CGtdColor3 {
+	background-color: #99FFCC;
+	}
+
+.CGtdColor4 {
+	background-color: #E6E6E6;
+	}
+
+.CGbmiColor1 {
+	background-color: #CCFFCC;
+	}
+
+.CGbmiColor2 {
+	background-color: #FFCC99;
+	}
+
+.CGbmiColor3 {
+	background-color: #66FFFF;
+	}
+
+.CGbmiColor4 {
+	background-color: #FFFF99;
+	}
+.CGbmiColor5 {
+	background-color: #FF99FF;
+	}
+
+.CGsmallText {
+	font-family: verdana,arial,geneva,helvetica, sans-serif; 	
+	font-size: 10px;
+	margin-top: 2px;
+	margin-bottom: 15px;
+}
+
+.CGimageSubtext {
+	background-color: #E6E6E6;
+	}
+
+.CGPresentationSubhead {
+	font-family: verdana,arial,geneva,helvetica, sans-serif; 	
+	font-size: 12px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #006633
+	}
+
+.CGPresentationNav {
+	font-family: verdana,arial,geneva,helvetica, sans-serif; 	
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	background-color: #006633;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+    cursor: pointer;
+	}
+
+a.CGPresentationNav {
+	font-family: verdana,arial,geneva,helvetica, sans-serif; 	
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	background-color: white;
+	margin-bottom: 0px;
+	text-align: center;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px
+	}
+	
+	
+a:hover.CGPresentationNav {
+	font-family: verdana,arial,geneva,helvetica, sans-serif; 	
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	background-color: #99FFCC;
+	margin-bottom: 0px;
+	text-align: center;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px
+	}
+	
+
+*/ DecisionAssist */
+
+/* Form questions */						
+	/*
+	table.FormQuestion{border-style:none; border-collapse:collapse; margin-bottom:5px;}	
+						
+	td.FormQuestion{vertical-align:top; font-size:8pt; font-weight:normal; width:225px; padding:0px; color:black;
+				   border-style:none; border-collapse:collapse; background-color:#FAF8F3}			   
+			
+	table.FormAnswers{border-style:solid; border-collapse:collapse; border-width:0; padding:0; border-color:#93B77B}
+	
+	tr.FormAnswerOdd{background-color:#F3F0E2; font-size:10pt; vertical-align:middle}		
+	tr.FormAnswerEven{background-color:#DFDCCE; font-size:10pt; vertical-align:middle}
+			
+	td.FormAnswer{vertical-align:middle; font-size:8pt; width:350px; padding:3px}				
+	td.FormInput{vertical-align:top}
+	*/
+	
+	/* Form answers */				
+	.FormAnswers{
+		border-style:solid; 
+		border-collapse:collapse; 
+		border-width:0; 
+		padding:0; 
+		border-color:#93B77B
+	}
+	
+	.FormAnswerOdd{
+		font-size:10pt; 
+		vertical-align:top;
+		position: relative;
+		width: 99%;
+		z-index: 1;
+		border-style:solid;  
+		border-width:0;  
+		border-color:black;
+		float:left;
+		padding: 2px;
+		}		
+	
+	.FormAnswerEven{
+		font-size:10pt; 
+		vertical-align:top;
+		position: relative;
+		width: 99%;
+		z-index: 1;
+		border-style:solid;  
+		border-width:0;  
+		border-color:black;
+		float:left;
+		padding: 2px;
+		}
+
+.FormAnswerOddTop{
+		background-color:#F3F0E2; 
+		font-size:10pt; 
+		vertical-align:top;
+		position: relative;
+		width: 99%;
+		z-index: 1;
+		border-style:solid;  
+		border-width:0;  
+		border-color:black;
+		float:left;
+		padding: 2px;
+		}		
+	
+	.FormAnswerEvenTop{
+		background-color:#FAF8F3; 
+		font-size:10pt; 
+		vertical-align:top;
+		position: relative;
+		width: 99%;
+		z-index: 1;
+		border-style:solid;  
+		border-width:0;  
+		border-color:black;
+		float:left;
+		padding: 2px;
+		}
+
+
+.FormAnswerOddBottom{
+		background-color:#F3F0E2; 
+		font-size:10pt; 
+		vertical-align:top;
+		position: relative;
+		width: 99%;
+		z-index: 1;
+		border-style:solid;  
+		border-width:0;  
+		border-color:black;
+		float:left;
+		padding: 2px;
+		}		
+	
+	.FormAnswerEvenBottom{
+		background-color:#FAF8F3; 
+		font-size:10pt; 
+		vertical-align:top;
+		position: relative;
+		width: 99%;
+		z-index: 1;
+		border-style:solid;  
+		border-width:0;  
+		border-color:black;
+		float:left;
+		padding: 2px;
+		}
+	
+
+	.ADAMFormAnswersOuter {
+		text-align: left;
+		padding: 1px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top:5px;
+		width:expression(100 + "%");
+		max-width: 100%;
+		z-index: 1;
+		border-style:solid;  
+		border-width:0;  
+		border-color:red;
+		vertical-align:middle;
+		position: relative;
+	}
+
+	.ADAMFormAnswersImage {
+		z-index: 2;
+		border-style:solid;
+		width:6px;
+		height:6px;
+		border-width:0;  
+		border-color:green;
+		float: left;
+		vertical-align:top;
+	}
+
+	.ADAMFormQuestion {
+		z-index: 2;
+		max-width: 100%;
+		width: 80%;
+		border-style:solid;  
+		border-width:0;  
+		border-color:blue;
+		position: relative;
+		float: left;
+		margin-left: 5px;
+		vertical-align:top;
+	}
+
+	.ADAMFormAnswer {
+		z-index: 2;
+		max-width: 100%;
+		border-style:solid;  
+		border-width:0;  
+		border-color:blue;
+		float: left;
+		margin-left: 5px;
+		background-color:#FAF8F3;
+		padding: 7px;
+	}
+    a.ADAMSubmitButton
+{
+	background: url(../../graphics/global/button_start_dual.jpg);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 82px;
+}
+
+    a:hover.ADAMSubmitButton
+{
+	background: url(../../graphics/global/button_start_dual.jpg);
+	background-repeat: no-repeat;
+	display:block;
+	}
+
+	a.ADAMStartButton{
+		display:block;
+		width: 95px;
+		height: 35px;
+		font: bold 13px sans-serif;
+		background: url(../../graphics/global/button_start_dual.jpg) no-repeat 0 0px;
+		text-decoration: none;
+		border-width: 0px;
+		text-align: center;
+		vertical-align: middle;
+		margin-top: 10px;
+		}
+
+	a:hover.ADAMStartButton {	
+		background: url(../../graphics/global/button_start_dual.jpg) no-repeat 0px -35px;
+		}
+
+	a.ADAMPreviousButton{
+		display:block;
+		width: 105px;
+		height: 35px;
+		font: bold 13px sans-serif;
+		background: url(../../graphics/global/button_previous_dual.jpg) no-repeat 0 0px;
+		text-decoration: none;
+		border-width: 0px;
+		text-align: center;
+		vertical-align: middle;
+		margin-top: 10px;
+		position:relative;
+		float: left;
+		}
+
+	a:hover.ADAMPreviousButton {	
+		background: url(../../graphics/global/button_previous_dual.jpg) no-repeat 0px -35px;
+		}
+
+	a.ADAMNextButton{
+		display:block;
+		width: 105px;
+		height: 35px;
+		font: bold 13px sans-serif;
+		background: url(../../graphics/global/button_next_dual.jpg) no-repeat 0 0px;
+		text-decoration: none;
+		border-width: 0px;
+		text-align: center;
+		vertical-align: middle;
+		margin-top: 10px;
+		position:relative;
+		float: left;;
+		}
+
+	a:hover.ADAMNextButton {	
+		background: url(../../graphics/global/button_next_dual.jpg) no-repeat 0px -35px;
+		}
+
+	a.ADAMStartOverButton{
+		display:block;
+		width: 123px;
+		height: 35px;
+		font: bold 13px sans-serif;
+		background: url(../../graphics/global/button_startover_dual.jpg) no-repeat 0 0px;
+		text-decoration: none;
+		border-width: 0px;
+		text-align: center;
+		vertical-align: middle;
+		margin-top: 10px;
+		}
+
+	a:hover.ADAMStartOverButton {	
+		background: url(../../graphics/global/button_startover_dual.jpg) no-repeat 0px -35px;
+		}
+
+	.FormAnswerOddPrint{
+		font-size:10pt; 
+		vertical-align:middle;
+		width: 99%;
+		z-index: 1;
+		border-style:solid;  
+		border-width:0;  
+		border-color:black;
+		}		
+	
+	.FormAnswerEvenPrint{
+		font-size:10pt; 
+		vertical-align:middle;
+		width: 99%;
+		z-index: 1;
+		border-style:solid;  
+		border-width:0;  
+		border-color:black;
+		}
+
+.ADAMFormAnswersOuterPrint {
+		text-align: left;
+		padding: 1px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top:0px;
+		max-width: 99%;
+		z-index: 1;
+		vertical-align:middle;
+		position: relative;
+		border-style:solid;  
+		border-width:0;  
+		border-color:red;
+	}
+
+	
+	.ADAMFormAnswersImagePrint {
+		z-index:1;
+		max-width: 45px;
+		float: left;
+		border-style:solid;  
+		border-width:0;  
+		border-color:green;
+	}
+	
+	.ADAMFormQuestionPrint {
+		z-index: 1;
+		width: 97%;
+		float: left;
+		margin-left: 5px;
+		vertical-align:top
+		border-style:solid;  
+		border-width:0;  
+		border-color:blue;
+	}
+	
+	.ADAMFormAnswerPrint {
+		z-index: 1;
+		max-width: 97%;
+		float: left;
+		margin-left: 7px;
+		border-style:solid;  
+		border-width:0;  
+		border-color:blue;
+		background-color:#FAF8F3;
+		padding: 7px;
+	}
+	
+	.ADAMDecisionAssistHeaderContainer {
+		background: url(../../graphics/global/42_titlefill.gif) repeat-x; 
+		float: left; 
+		width: 100%; 
+		height: 55px; 
+		margin-right: 0px; 
+		z-index: 0;
+	}
+	
+	.ADAMDecisionAssistHeaderLeft {
+		float: left; 
+		width: 100px; 
+		height: 55px; 
+		z-index: 4;
+	}
+
+
+/* Maidex for DecisionAssist */
+
+.ADAMSubContentTitle {
+	font-size:16px; 
+	color:#5E583E; 
+	font-weight: bold; 
+	margin-bottom:10px;
+}
+
+.ADAMRoundInner {
+	width: 580px;
+	background-color: #FAF8F3;
+	z-index: 10;
+}
+#ADAMRoundLeft {
+	float: left;
+}
+#ADAMRoundRight {
+	float: right;
+}
+.ADAMRoundInner .ADAMRoundInnerThumb_t {
+	background-image: url(../../graphics/global/r5.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.ADAMRoundInner .ADAMRoundInnerThumb_r {
+	background-image: url(../../graphics/global/r8.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.ADAMRoundInner .ADAMRoundInnerThumb_b {
+	background-image: url(../../graphics/global/r6.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.ADAMRoundInner .ADAMRoundInnerThumb_l {
+	background-image: url(../../graphics/global/r7.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.ADAMRoundInner .ADAMRoundInnerThumb_tl {
+	background-image: url(../../graphics/global/r1.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.ADAMRoundInner .ADAMRoundInnerThumb_tr {
+	background-image: url(../../graphics/global/r2.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.ADAMRoundInner .ADAMRoundInnerThumb_bl {
+	background-image: url(../../graphics/global/r3.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+.ADAMRoundInner .ADAMRoundInnerThumb_br {
+	background-image: url(../../graphics/global/r4.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.ADAMRoundInner .ADAMRoundInnerThumb_content {
+	padding: 10px;
+}
+
+
+/*outline images for thumbnails*/
+
+.ADAMInlineGraphicThumb
+{
+	margin: 0px;
+	padding: 0px;
+	min-height: 60px;
+	position: relative;
+	z-index: 1;
+	width: expression(450 + 'px');
+	width: 450px;
+}
+
+.ADAMTextBoxThumb
+{
+vertical-align: middle;
+text-align: left;
+padding: 5px;
+background-color:#FAF8F3;
+height:expression(50 + "px");
+width: expression(350 + 'px');
+margin-top: 15px;
+float: left; 
+width: 350px;
+}
+
+.ADAMRoundInnerThumb {
+	width: 451px;
+	background-color: #FAF8F3;
+	z-index: -10;
+}
+
+.ADAMRoundInnerThumb .ADAMRoundInnerThumb_t {
+	background-image: url(../../graphics/global/r5.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.ADAMRoundInnerThumb .ADAMRoundInnerThumb_r {
+	background-image: url(../../graphics/global/r8.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.ADAMRoundInnerThumb .ADAMRoundInnerThumb_b {
+	background-image: url(../../graphics/global/r6.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.ADAMRoundInnerThumb .ADAMRoundInnerThumb_l {
+	background-image: url(../../graphics/global/r7.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.ADAMRoundInnerThumb .ADAMRoundInnerThumb_tl {
+	background-image: url(../../graphics/global/r1.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.ADAMRoundInnerThumb .ADAMRoundInnerThumb_tr {
+	background-image: url(../../graphics/global/r2.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.ADAMRoundInnerThumb .ADAMRoundInnerThumb_bl {
+	background-image: url(../../graphics/global/r3.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+.ADAMRoundInnerThumb .ADAMRoundInnerThumb_br {
+	background-image: url(../../graphics/global/r4.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.ADAMRoundInnerThumb .ADAMRoundInnerThumb_content {
+	padding: 10px;
+}
+
+
+
+@media screen {
+	.ADAMRightNav {
+		width: 202px;
+		float: right;
+		margin: 5px;
+		margin-left: 20px;
+		padding-top: 15px;
+		position: relative;
+	}
+}
+
+@media print {
+	.ADAMRightNav
+	{
+		display: none;
+	}
+}

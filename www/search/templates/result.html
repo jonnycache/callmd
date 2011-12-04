@@ -1,0 +1,30 @@
+{% extends "new_main.html" %}
+
+{% block title %}Search results for: {{ query }}{% endblock %}
+
+{% block extra_css %}
+    <link href="/media/encyclopedia.css" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block search_box %}{{ query }}{% endblock %}
+
+{% block main %}
+    
+    
+    <div class="ADAM">
+    
+    <div><img src="/media/images/callmd-top.jpg"><br><img src="/media/images/callmd-117_titleimage_multimedia.gif"></div>
+        <h1>Search results</h1>
+        {% if results %}
+            <p>Search terms: {{ query }}</p>
+            <p>Found {{ results|length }} article{{ results|length|pluralize }}.</p>
+            <ol>
+            {% for x in results %}
+                <li><a href="/encyclopedia/{{ x.projectTypeId }}/{{ x.genContentId }}/">{{ x.title }}</a></li>
+            {% endfor %}
+            </ol>
+        {% else %}
+            <p>No results.</p>
+        {% endif %}
+    </div>
+{% endblock %}

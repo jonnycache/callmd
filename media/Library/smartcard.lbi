@@ -1,0 +1,60 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="../callmd-052809.css" rel="stylesheet" type="text/css">
+<div class="box-sm-fade"><img src="../images/bar-blue.gif" width="308" height="4" /><br />
+      <br />
+      <form action="mailto:skethavarapu@americareservicesinc.com" method="post" enctype="text/plain" name="form1" id="form1">
+        <table width="640" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="2" valign="top"><span class="txt-headers" style="color: #164A7B; font-weight: bold;">CallMd SmartCard</span><span class="txtsmart2"><br />
+            Want to know more about any health topic? Just request a SmartCard here. Your request will go to our Guide team and we'll build a WisdomCard on your topic, fast.</span><br /></td>
+          </tr>
+          <tr>
+            <td valign="top">&nbsp;</td>
+            <td valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="330" valign="top"><div class="box-right2">
+              <div class="box-sm-col8">What is the topic of your requested SmartCard? *<br />
+                <br />
+                <label>
+                  <input name="textfield2" type="text" id="textfield2" size="37" />
+                </label>
+                <br />
+                <br />
+                Enter your email address so we can notify you when we complete your request. * <br />
+                <br />
+                <label>
+                  <textarea name="textfield3" cols="32" rows="5" id="textfield3"></textarea>
+                </label>
+<br />
+              </div>
+              <br />
+            </div></td>
+            <td width="310" valign="top"><div class="box-right2">
+              <div class="box-sm-col8">Anything else we should know? <br />
+                <br />
+                <label>
+                  <input name="textfield4" type="text" id="textfield4" size="37" />
+                  <br />
+                  <br />
+                  <input type="checkbox" name="checkbox" id="checkbox" />
+                </label>
+                I am a Guide and would like to build this WisdomCard.<br />
+                <br />
+                Guide Name <br />
+                <br />
+                <input name="textfield5" type="text" id="textfield5" size="37" />
+                <br />
+                <br />
+                <label>
+                  <input type="submit" name="button" id="button" value="Submit">
+                </label>
+                <br />
+              </div>
+              <br />
+            </div></td>
+          </tr>
+        </table>
+      </form>
+  <br />
+    </div>

@@ -1,0 +1,115 @@
+#navigation {
+	width:982px;
+	height:29px;
+	background-color:#999;
+	background-image: url(/media/images/nav-bg.jpg);
+	padding-left: 19px;
+	float: left;
+}
+
+#navigation ul {
+	margin:0px;
+	padding:0px;
+}
+#navigation ul li {
+	display:list-item;
+	height:25px;
+	float:left;
+	margin-left:7px;
+	position:relative;
+	list-style-position: inside;
+	list-style-type: none;
+	padding-top: 4px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+#navigation li a {
+	color:#1B5B90;
+	text-decoration:none;
+}
+#navigation li a:hover {
+	color:#F00;
+	text-decoration:none;
+}
+#navigation li ul {
+	margin:0px;
+	padding:0px;
+	display:none;
+	position:absolute;
+	left:5px;
+	top:29px;
+	background-color:#BAD7FF;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+#navigation li:hover ul {
+	display:block;
+	width:140px;
+}
+#navigation li li {
+	list-style:none;
+	display:list-item;
+	clear: both;
+}
+#navigation li li a {
+	color:#1B5B90;
+	text-decoration:none;
+}
+#navigation li li a:hover {
+	color:#F00;
+	text-decoration:none;
+}
+
+
+.panel, .panelcollapsed 
+{
+	background: #eee;
+	margin: 3px;
+	padding: 0px 0px 5px;
+	width: 600px;
+	
+}
+
+/* panel heading */
+.panel h2, .panelcollapsed h2 
+{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 4px;
+	background: url(/media/footer_seo/gradient_up.jpg);
+	border-bottom: 1px solid #999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-top: 0px solid #FFF;
+	border-right: 0px solid #FFF;
+	border-left: 0px solid #FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+
+/* panel heading on rollover */
+.panel h2:hover, .panelcollapsed h2:hover { background-color: #A9BCEF; }
+
+/* heading of a collapsed panel */
+.panelcollapsed h2 
+{
+	background: url(/media/footer_seo/gradient_dn.jpg);
+	border-color: #CCC;
+	font-family: "Times New Roman", Times, serif;
+	}
+
+/* panel content - do not set borders or paddings */
+.panelcontent 
+{ 
+	background: #EEE; 
+	overflow: hidden;
+}
+
+/* collapsed panel content */
+.panelcollapsed .panelcontent { display: none;
+}
+.panelcontent h3{
+	font-size:12px;
+}

@@ -1,0 +1,105 @@
+
+#menu1 ul {
+	margin:0px;
+	padding:0px;
+}
+#menu1 ul li {
+	display:inline;
+	height:25px;
+	float:left;
+	margin-left:7px;
+	position:relative;
+	list-style-position: inside;
+	list-style-type: none;
+	padding-top: 14px;
+	padding-left: 34px;
+	font-weight: bold;
+	font-family:Arial;
+	font-size:12px;
+}
+#menu1 li a {
+	color:#333;
+	text-decoration:none;
+}
+#menu1 li a:hover {
+	color:#F00;
+	text-decoration:none;
+}
+#menu1 li ul {
+	margin:0px;
+	padding:0px;
+	display:none;
+	position:absolute;
+	left:5px;
+	top:29px;
+	background-color:#BAD7FF;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+#menu1 li:hover ul {
+	display:block;
+	width:140px;
+}
+#menu1 li li {
+	list-style:none;
+	display:inline;
+	clear: both;
+}
+#menu1 li li a {
+	color:#1B5B90;
+	text-decoration:none;
+}
+#menu1 li li a:hover {
+	color:#F00;
+	text-decoration:none;
+}
+
+
+.panel, .panelcollapsed 
+{
+	background: #eee;
+	margin: 3px;
+	padding: 0px 0px 5px;
+	width: 600px;
+	
+}
+
+/* panel heading */
+.panel h2, .panelcollapsed h2 
+{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 4px;
+	background: url(/media/footer_seo/gradient_up.jpg);
+	border-bottom: 1px solid #999;
+	border-top: 0px solid #FFF;
+	border-right: 0px solid #FFF;
+	border-left: 0px solid #FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+
+/* panel heading on rollover */
+.panel h2:hover, .panelcollapsed h2:hover { background-color: #A9BCEF; }
+
+/* heading of a collapsed panel */
+.panelcollapsed h2 
+{
+	background: url(/media/footer_seo/gradient_dn.jpg);
+	border-color: #CCC;
+	font-family: "Times New Roman", Times, serif;
+	}
+
+/* panel content - do not set borders or paddings */
+.panelcontent 
+{ 
+	background: #EEE; 
+	overflow: hidden;
+}
+
+/* collapsed panel content */
+.panelcollapsed .panelcontent { display: none;
+}
+.panelcontent h3{
+	font-size:12px;
+}

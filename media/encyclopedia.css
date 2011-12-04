@@ -1,0 +1,133 @@
+.ADAM {
+	color: #333;
+	float: left;
+	font-family: Arial,Helvetica,Geneva,sans-serif;
+	font-size: 11pt;
+	line-height: 15pt;
+	width: 650px;
+}
+
+.ADAM h1 {
+	font-size: 18pt;
+}
+
+.ADAM h2 {
+	color: #5E583E;
+	font-size: 16pt;
+}
+
+.ADAM a {
+	text-decoration: none;
+}
+
+.ADAM .main-separator {
+	margin-top: 4em;
+}
+
+.ADAM .versionInfo {
+	font-size: 10pt;
+}
+
+.ADAM .bar {
+	float: right;
+	width: 204px;
+	border: 1px solid #888;
+	margin: 5px 5px 5px 20px;
+	padding: 5px 0;
+	/* rounded corners */
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 10pt;
+}
+
+.ADAM .bar ul {
+	padding-right: 5px;
+}
+
+.ADAM .bar .visualContent {
+	float: left;
+	width: 100px;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.ADAM .bar .visualContent img {
+	border-width: 0;
+}
+
+.ADAM .bar .visualContent .label {
+	line-height: 1.3em;
+	height: 2.5em;
+	overflow: hidden;
+}
+
+.ADAM .bar .type-carePoints, .ADAM .bar .type-readMore {
+	display: none;
+	clear: both;
+}
+
+.ADAM .bar .carePoints .type-carePoints, .ADAM .bar .readMore .type-readMore {
+	display: block;
+}
+
+.ADAM .bar h3 {
+	width: auto;
+	padding: 5px 2px 5px 5px;
+	font-weight: bold;
+	font-size: 12pt;
+	background-color: #d5e2f3;
+}
+
+.ADAM .bar h3.carePoints {
+	background-color: #e7d9be;
+}
+
+.ADAMDisclaimer {
+	clear: both;
+	width:650px;
+	float:left;
+}
+
+.ADAM .links {
+	width: 100%;
+}
+
+.ADAM .links .current {
+	background-color: #fd8;
+}
+
+.ADAM .links span.inactive {
+	color: #888;
+	font-weight: normal;
+}
+
+.ADAM .links td {
+	text-align: center;
+	font-weight: bold;
+}
+
+.ADAM .links td.header {
+	text-align: left;
+}
+
+.ADAM .left-index {
+	clear: left;
+	border-right: 2px solid #ddd;
+}
+
+.ADAM .left-index, .ADAM .right-index {
+	float: left;
+	width: 280px;
+	min-height: 280px;
+	padding: 0 1em;
+}
+
+.ADAM .clear {
+	clear: both;
+}
+
+.ADAM .videolink {
+	margin-left: 0.5in;
+	border-left: 1ex solid #888;
+}

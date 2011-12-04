@@ -1,0 +1,666 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{% block title %}Untitled Document{% endblock %}</title>
+<link rel="stylesheet" type="text/css" href="/media/callmd-menu41.css"  />
+
+{% block extra_css %}{% endblock %}
+
+<script src="http://vp360hosting.com/BASE_CODE/javascripts/referrer.js" type="text/javascript"></script>
+<script type="text/javascript">
+var vp360JsUrl = "http://vp360hosting.com/BASE_CODE/flash_script.loader.php?client_id=CALLMD&video_id=135&referrer_engine="+referrer_engine+"&referrer_keyword="+referrer_keyword;
+
+var vp360Browser = document.all && !window.opera;
+  var vp360BrowserBody = ( document.compatMode=='CSS1Compat' ) ?  document.documentElement : document.body;
+  var vp360BrowserHeight = ( vp360Browser ) ? vp360BrowserBody.clientHeight : window.innerHeight;
+
+  var vp360BrowserWidth = ( vp360Browser ) ? vp360BrowserBody.clientWidth : window.innerWidth;
+  var vp360BrowserTop = ( vp360Browser ) ? vp360BrowserBody.scrollTop : window.pageYOffset;
+  var vp360BrowserLeft = ( vp360Browser ) ? vp360BrowserBody.scrollLeft : window.pageXOffset;
+
+  function  _vp360Init () {
+
+  var vp360DomElement  = document.createElement( 'script' );
+  vp360DomElement.setAttribute( 'type', 'text/javascript' );
+  vp360DomElement.setAttribute( 'src', vp360JsUrl  );
+
+  var vp360Container = document.body.firstChild;
+  ( vp360Container ) ? document.body.insertBefore( vp360DomElement, vp360Container ) :  document.body.appendChild( vp360DomElement );
+
+  }
+
+  function loadVp360() {
+	_vp360Init();
+  }
+</script>
+<script type='text/javascript' src='/media/quickmenu.js'></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+<style>
+
+.pseudolink {cursor: pointer;}
+
+#content h1 
+{
+color:#FF0000;
+font-size:14pt;
+}
+#content h2 
+{
+color:orange;
+font-size:12pt;
+}
+#content a 
+{
+color:#49C4FF;
+text-decoration:none;
+}
+#content a:hover
+{
+ font-weight:bold;
+}
+#wrap
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+
+}
+#click img {
+border:medium none;
+margin-left:14px;
+}
+#header{
+	width:1000px;
+	height:112px;
+	
+}
+#logo
+{
+	
+	width:281px;
+	height:95px;
+	background-repeat:no-repeat;
+	display:block;
+	float:left;
+	border:none;
+}
+#search-box
+{
+	width:702px;
+	height:112px;
+	float:right;
+	background:url(/media/promo2%20images/images/home-02v2.png);
+	background-repeat:no-repeat;
+}
+#main
+{
+	width:1000px;
+	height:auto;
+	margin-top:20px;
+float:left;
+}
+#hot-topics
+{
+	width:164px;
+	height:auto;
+	display:block;
+	float:left;
+}
+#sym-nav
+{
+	width:176px;
+	height:540px;
+	margin-left:12px;
+	float:left;
+}
+.symnav
+{
+	width:175px;
+	height:265px;
+	display:block;
+}
+#tops
+{
+    text-decoration:none;
+    padding-bottom:3px;
+}
+#tops a
+{
+    text-decoration:none;
+    font-family:Arial;
+    font-size:12px;
+   color:#333;
+    margin-left:7px;
+}
+#tops a:hover
+{
+	font-weight:600;
+}
+#modules
+{
+	width:321px;
+	height:537px;	
+	float:left;
+	display:block;
+	margin-left:13px;
+	background:url(/media/promo2%20images/images/module1.jpg);
+}
+
+#right-menu
+{
+	width:305px;
+	height:700px;
+	margin-left:8px;
+	float:left;
+	
+	background-repeat:no-repeat;
+}
+#menu1
+{
+	width:1000px;
+	height:43px;
+	margin-top:10px;
+	background:url(/media/promo2%20images/images/nav-bar.jpg);
+	background-repeat:no-repeat;
+	background-position:2px;
+	margin-left:2px;
+}
+#menu1 li
+{
+	display:inline;
+	}
+#topics
+{
+	width:164px;
+	height:536px;
+	float:left;
+}
+#topics ul li a{
+	text-decoration:none;
+	color:#333;
+}
+#topics ul li a:hover{
+	color:#0C0;
+}
+
+#popupbox{
+
+	margin: 0; 
+	margin-left: 15%; /* This gets it relatively center on the screen */
+	margin-right: 60%; /* This gets it relatively center on the screen */
+	margin-top: 30px; /* Makes it a little off the top of the screen */
+	padding-top: 10px; /* Make the text not touching the top on the login box */
+	width: 20%; /* For centering it on the screen */
+	height: 150px; /* The height of the login box */
+	position: absolute; /* Makes sure its absolute so it doesn't dock with everything else */
+	background: #FBFBF0; /* Login Box background color. Change this if desired. */
+	border: solid #000000 2px; /* Makes a black border around the login box */
+	z-index: 9; /* Makes it on top of everything else */
+	font-family: arial; /* Sets the font */
+	visibility: hidden; /* Makes it hidden at first. Very Important.*/
+	
+}
+
+	 #tips2,#tips2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		text-align:left;
+	}
+		
+	 #tips2{
+		width:500px;
+		font-size:16px;
+		line-height:120%;
+		text-align:left;
+	}
+		
+	#tips2 li{
+		text-align:left;
+		padding:20px;
+		display:none; /* hide the items at first only */
+	}
+#footer_rt a
+	{
+		font-size:10.5px;
+		color:#069;
+		font-family:Arial;
+		text-decoration:none;
+	}
+#foot_note {
+color:#333333;
+float:left;
+font-family:Arial;
+font-size:10px;
+margin-top:37px;
+}
+
+.meds li
+{
+	margin-left:25px;
+	font-family:Arial;
+	font-size:14px;
+	list-style:none;
+	font-weight:bold;
+	color:white;
+	padding-bottom:5px;
+	padding-top:2px;
+}
+
+.meds li a
+{
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+	margin-left:7px;
+}
+
+.meds li a:hover
+{
+	color:#FF0000;
+}
+</style>
+
+
+<script type="text/javascript">
+function video1()
+{
+
+	test= window.open("/video1/","blank","toolbar=no,width=470,height=300");
+	test.moveTo(350,50);
+}
+</script>
+
+<script type="text/javascript">
+function video2()
+{
+
+	test= window.open("/video2/","blank","toolbar=no,width=470,height=300");
+	test.moveTo(350,50);
+}
+</script>
+
+<script type="text/javascript">
+function video3()
+{
+
+	test= window.open("/video3/","blank","toolbar=no,width=470,height=300");
+	test.moveTo(350,50);
+}
+</script>
+
+<script type="text/javascript">
+function video4()
+{
+
+	test= window.open("/video4/","blank","toolbar=no,width=470,height=300");
+	test.moveTo(350,50);
+}
+</script>
+
+<script type="text/javascript">
+function out()
+{
+	document.getElementById('search').src='/media/promo2 images/images/butt-search.png';
+}
+</script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+<script type="text/javascript">
+ 	 // You may specify partial version numbers, such as "1" or "1.3",
+ 	 //  with the same result. Doing so will automatically load the 
+  	//  latest version matching that partial revision pattern 
+  	//  (i.e. both 1 and 1.3 would load 1.3.2 today).
+  	google.load("jquery", "1.4.2");
+ 
+  google.setOnLoadCallback(function() {
+    // Place init code here instead of $(document).ready()
+  });
+</script>
+<script type="text/javascript" language="javascript">
+
+function med()
+{
+	
+	document.getElementById('menus').src='/media/menu/medical-roll.png';
+	document.getElementById('medicals').style.display='block';
+}
+
+function drug()
+{
+	document.getElementById('menus').src='/media/menu/drugs-roll.png';
+	document.getElementById('drugs').style.display='block';
+}
+
+function weight()
+{
+	document.getElementById('menus').src='/media/menu/weight-roll.png';
+	document.getElementById('weight').style.display='block';
+}
+
+function mental()
+{
+	document.getElementById('menus').src='/media/menu/mental-roll.png';
+	document.getElementById('mental').style.display='block';
+}
+
+function life()
+{
+	document.getElementById('menus').src='/media/menu/lifestyle-roll.png';
+	document.getElementById('life').style.display='block';
+}
+
+function health()
+{
+	document.getElementById('menus').src='/media/menu/health-roll.png';
+	document.getElementById('health').style.display='block';
+}
+
+function partner()
+{
+	document.getElementById('menus').src='/media/menu/partners-roll.png';
+	document.getElementById('partner').style.display='block';
+}
+
+function pops()
+{
+	document.getElementById('menus').src='/media/menu/base-nav.png';
+	document.getElementById('medicals').style.display='none';
+	document.getElementById('drugs').style.display='none';
+	document.getElementById('weight').style.display='none';
+	document.getElementById('mental').style.display='none';
+	document.getElementById('life').style.display='none';
+	document.getElementById('health').style.display='none';
+	document.getElementById('partner').style.display='none';
+	
+}
+</script> 
+
+<script type="text/javascript">
+
+this.randomtip2 = function(){
+
+	var pause2 = 4000; // define the pause for each tip (in milliseconds) 
+	var length2 = $("#tips2 li").length; 
+	var temp2 = -1;		
+
+	this.getRan2 = function(){
+		// get the random number
+		var ran2 = Math.floor(Math.random()*length2) + 1;
+		return ran2;
+	};
+	this.show2 = function(){
+		var ran2 = getRan2();
+		// to avoid repeating
+		while (ran2 == temp2){
+			ran2 = getRan2();
+		}; 
+		temp2 = ran2;
+		$("#tips2 li").hide();	
+		$("#tips2 li:nth-child(" + ran2 + ")").fadeIn("slow");		
+	};
+	
+	show2(); setInterval(show2,pause2);
+	
+};
+
+$(document).ready(function(){	
+	randomtip2();
+});
+
+</script>		
+<script language="JavaScript" type="text/javascript">
+
+	function login(showhide){
+			if(showhide == "show"){
+				document.getElementById('popupbox').style.visibility="visible"; /* If the function is called with the variable 'show', show the login box */
+			}else if(showhide == "hide"){
+				document.getElementById('popupbox').style.visibility="hidden"; /* If the function is called with the variable 'hide', hide the login box */
+			}
+	}
+	
+</script>
+
+</head>
+
+<body bgcolor="">
+<div style="overflow: hidden;" id="wrap">
+
+<div id="header">
+<div id="logo">
+<a href="/edoc/"><img border="0" alt="" src="/media/callmd/images/callmd-edoc-logos.png" style="margin-top: 0px; position: relative; top: -24px;"></a>
+</div>
+
+<div id="search-box">
+<form method="get" action="/search/">
+    <table cellspacing="0" cellpadding="0" border="0" align="right" width="660">
+      <tbody><tr>
+        <td height="155" valign="top" class="headbg"><a class="promo" onclick="call1()" href="/promo1/" shape="circle" title="Click Here!"></a>
+<div class="headsearchbx"><span class="searchbox-form">
+            <input type="text" size="55" value="{% block search_box %}SEARCH HERE &ndash; SYMPTOM, WELLNESS, DOCTOR...{% endblock %}" onfocus="this.value=''" class="text inputblur" name="q" style="margin-left: 109px; border: medium none; margin-top: 69.5px; font-family: Arial; font-weight: 600; font-size: 12px; color: rgb(51, 51, 51);"> 
+            </span> </div>
+
+ 
+
+          <div class="box-search-butt">
+            <input type="image" src="/media/promo2 images/images/butt-search.png" alt="" style="border: medium none; float: left; position: relative; left: -5px; top: -23px;" onmouseover="this.src='/media/promo2 images/images/butt-search-roll.png'" onmouseout="this.src='/media/promo2 images/images/butt-search.png'">
+          </div>
+          <div class="clearfloat-txt0">&nbsp;</div></td>
+      </tr>
+    </tbody></table>
+  </form>
+
+</div>
+</div>
+
+
+<img id="menus" height="42" width="996" style="margin-top:16px;"  src="/media/menu/base-nav.png" border="" align="middle" alt="" usemap="#menus" />
+
+<map name="menus">
+
+<area shape="rect" coords="25,5,179,49"  alt="medical" href="/medical-conditions/edoc/" onmouseover="med()" onmouseout="pops()"/>
+
+<div id="medicals" style="width:150px; height:auto; margin-left:30px; display:none; position:absolute; margin-left:33px; " onmouseover="this.style.display='block'" onmouseout="this.style.display='none'" >
+
+<div id="medical_header" style="background:url(/media/menu/menu-head.png); width:195px; height:17px;"></div>
+
+<div id="medical_body" style="background:url(/media/menu/menu-body.png); width:195px; font-family:Arail;">
+
+<div class="meds" style="margin-left:12px;"><li>+<a href="/heart-attack/edoc/">Heart Attack</a></li><li>+<a href="/diabetes/edoc/">Diabetes</a></li><li>+<a href="/stroke/edoc/">Stroke</a></li>
+<li>+<a href="/cancer/edoc/">Cancer</a></div>
+</div>
+
+<div id="medical_footer" style="background:url(/media/menu/menu-foot.png); width:195px; height:35px;"></div>
+
+</div>
+
+<area shape="rect" coords="195,0,293,49" alt="drug" href="/drugs/edoc/" onmouseover="drug()" onmouseout="pops()" />
+
+
+<div id="drugs" style="width:150px; height:auto; margin-left:30px; display:none; position:absolute; margin-left:199px;" onmouseover="this.style.display='block'" onmouseout="this.style.display='none'" >
+
+<div id="drug_header" style="background:url(/media/menu/menu-head.png); width:195px; height:17px;"></div>
+
+<div id="drug_body" style="background:url(/media/menu/menu-body.png); width:195px; font-family:Arail;">
+
+<div class="meds" style="margin-left:12px;"><li>+<a href="/vitamins/edoc/">Vitamins</a></li><li>+<a href="/common-cold/edoc/">Common Cold</a></li><li>+<a href="/flu/edoc/">Flu</a></li>
+</div>
+</div>
+ 
+<div id="drug_footer" style="background:url(/media/menu/menu-foot.png); width:195px; height:35px;"></div>
+ 
+</div>
+<area shape="rect" coords="303,0,427,49" alt="weight" href="/weight-management/edoc/" onmouseover="weight()" onmouseout="pops()" />
+
+
+<div id="weight" style="width:150px; height:auto; margin-left:30px; display:none; position:absolute; margin-left:294px;" onmouseover="this.style.display='block'" onmouseout="this.style.display='none'" >
+
+<div id="weight_header" style="background:url(/media/menu/menu-head.png); width:195px; height:17px;"></div>
+
+<div id="weight_body" style="background:url(/media/menu/menu-body.png); width:195px; font-family:Arail;">
+
+<div class="meds" style="margin-left:12px;"><li>+<a href="/weight-loss/edoc/">Weight Loss</a></li><li>+<a href="/balanced-diet/edoc/">Balanced Diet</a></li><li>+<a href="/diet-calories/edoc/">Diet Calories</a></li>
+</div>
+</div>
+ 
+<div id="weight_footer" style="background:url(/media/menu/menu-foot.png); width:195px; height:35px;"></div>
+ 
+</div>
+
+<area shape="rect" coords="441,0,567,49" alt="mental" href="/mental-health/edoc/" onmouseover="mental()" onmouseout="pops()" />
+
+
+<div id="mental" style="width:150px; height:auto; margin-left:30px; display:none; position:absolute; margin-left:433px;" onmouseover="this.style.display='block'" onmouseout="this.style.display='none'" >
+
+<div id="Mental_header" style="background:url(/media/menu/menu-head.png); width:195px; height:17px;"></div>
+
+<div id="Mental_body" style="background:url(/media/menu/menu-body.png); width:195px; font-family:Arail;">
+
+<div class="meds" style="margin-left:12px;"><li>+<a href="/anxiety/edoc/">Anxiety</a></li><li>+<a href="/stress/edoc/">Stress</a></li><li>+<a href="/depression/edoc/">Depression</a></li>
+</div>
+</div>
+ 
+<div id="Mental_footer" style="background:url(/media/menu/menu-foot.png); width:195px; height:35px;"></div>
+ 
+</div>
+
+<area shape="rect" coords="579,0,693,49" alt="life" href="/healthy-living/edoc/" onmouseover="life()" onmouseout="pops()" />
+
+
+<div id="life" style="width:150px; height:auto; margin-left:30px; display:none; position:absolute; margin-left:572px;" onmouseover="this.style.display='block'" onmouseout="this.style.display='none'" >
+
+<div id="life_header" style="background:url(/media/menu/menu-head.png); width:195px; height:17px;"></div>
+
+<div id="life_body" style="background:url(/media/menu/menu-body.png); width:195px; font-family:Arail;">
+
+<div class="meds" style="margin-left:12px;"><li>+<a href="/mens-health/edoc/">Mens Health</a></li><li>+<a href="/womens-health/edoc/">Womens Health</a></li><li>+<a href="/skin-care/edoc/">Skin Care</a></li><li>+<a href="/prevention/edoc/">Prevention</a></li>
+</div>
+</div>
+ 
+<div id="life_footer" style="background:url(/media/menu/menu-foot.png); width:195px; height:35px;"></div>
+ 
+</div>
+
+
+<area shape="rect" coords="703,0,819,49" alt="medical" href="/healthspot/edoc/" onmouseover="health()" onmouseout="pops()" />
+
+<div id="health" style="width:150px; height:auto; margin-left:30px; display:none; position:absolute; margin-left:685px;" onmouseover="this.style.display='block'" onmouseout="this.style.display='none'" >
+
+<div id="health_header" style="background:url(/media/menu/menu-head.png); width:195px; height:17px;"></div>
+
+<div id="health_body" style="background:url(/media/menu/menu-body.png); width:195px; font-family:Arail;">
+
+<div class="meds" style="margin-left:12px;"><li>+<a href="/encyclopedia/edoc/">Encyclopedia</a></li><li>+<a href="/hvideo/edoc/">Videos A to Z</a></li><li>+<a href="/encyclopedia/symptom-advisor/edoc/">Symptom Advisor</a></li><li>+<a href="/hdoctors/edoc/">Doctors</a></li>
+</div>
+</div>
+ 
+<div id="health_footer" style="background:url(/media/menu/menu-foot.png); width:195px; height:35px;"></div>
+ 
+</div>
+
+
+<area shape="rect" coords="830,0,946,49" alt="medical" href="#" onmouseover="partner()" onmouseout="pops()" />
+
+
+<div id="partner" style="width:150px; height:auto; margin-left:30px; display:none; position:absolute; margin-left:756px;" onmouseover="this.style.display='block'" onmouseout="this.style.display='none'" >
+
+<div id="partner_header" style="background:url(/media/menu/menu-head.png); width:195px; height:17px;"></div>
+
+<div id="partner_body" style="background:url(/media/menu/menu-body.png); width:195px; font-family:Arail;">
+
+<div class="meds" style="margin-left:10px;"><li>+<a href="http://www.ccgfamily.com/">Cost Containment</a></li><li>+<a href="http://www.edocamerica.com/">eDOC America</a></li><li>+<a href="http://adam.com/mHealth2Go.aspx">Medzio</a></li><li>+<a href="http://dentalplans.com/index.asp">Dental Plans</a></li>
+</div>
+</div>
+ 
+<div id="partner_footer" style="background:url(/media/menu/menu-foot.png); width:195px; height:35px;"></div>
+ 
+</div>
+
+</map>
+
+
+
+<div id="main">
+
+
+ 
+
+
+{% block main %}{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+<div style="overflow: hidden; float: right;" id="right-menu">
+<div id="video" style="background: url(/media/promo2%20images/images/videos.jpg) repeat scroll 0% 0% transparent; height: 137px;">
+<ul id="tips2">
+
+<li style="display: list-item;"><img style="margin-top: 25px; float: left;" src="/media/promo2 images/images/home_30.png">
+<div style="margin-top: 34px; width: 200px; margin-left: 10px; float: left; font-family: Arial; color: rgb(51, 51, 51); font-size: 14px;">
+See what Darren says<br><font><a style="text-decoration: none; font-size: 14px; color: rgb(51, 51, 51); font-weight: bold;" onclick="_vp360Init()" href="javascript: void(0);">View now!</a></font>
+</div>
+</li>
+
+<li style="display: list-item;"><img style="margin-top: 25px; float: left;" src="/media/promo2 images/images/home_30.png">
+<div style="margin-top: 34px; width: 200px; margin-left: 10px; float: left; font-family: Arial; color: rgb(51, 51, 51); font-size: 14px;">
+See what Darren says<br><font><a style="text-decoration: none; font-size: 14px; color: rgb(51, 51, 51); font-weight: bold;" onclick="_vp360Init()" href="javascript: void(0);">View now!</a></font>
+</div>
+</li></ul>
+</div>
+<div style="background: url(/media/promo2%20images/images/testimonial.jpg) repeat scroll 0% 0% transparent; height: 186px; margin-top: 15px;" id="testimonials">
+
+
+<div id="quote" style="float: left; margin-left: 8px; margin-top: 43px;">
+<object height="130" width="280" style="">
+<param name="movie" value="/media/quotes.swf">
+<embed height="130" width="280" src="/media/quotes.swf">
+
+</object>
+</div>
+
+
+</div>
+
+
+<div style="background: url(/media/promo2%20images/images/blog.jpg) repeat scroll 0% 0% transparent; margin-top: 15px; height: 254px;" id="blog">
+
+
+<a href="http://callmd.blogspot.com/"><img border="" style="margin-top: 38px; margin-left: 2px;" alt="" src="/media/images/blog-image.jpg"></a>
+
+
+</div>
+
+</div>
+
+<div style="width: 1000px; height: 135px; background: url(/media/promo2%20images/images/footer.png) no-repeat scroll 0% 0% transparent; display: block; float: left; margin-top: 20px;" id="footer">
+<a href="/"><img border="0" style="float: left; margin-top: 30px; margin-left: 15px;" alt="" src="/media/promo2 images/images/home_67.png"></a>
+
+<div style="width: 645px; height: 90px; display: block; border: thin none; float: left; margin-top: 25px; margin-left: 25px;" id="footer_rt">
+<a href="/medical-conditions/">Medical Conditions</a> <font face="Arial" color="#006699" style="font-size: 10.5px;">|</font> <a href="/drugs/">Drugs </a><font face="Arial" color="#006699" style="font-size: 10.5px;">|</font> <a href="/weight-management/">Weight Mgmt. </a><font face="Arial" color="#006699" style="font-size: 10.5px;">|</font> <a href="/mental-health/">Mental Health </a><font face="Arial" color="#006699" style="font-size: 10.5px;">| </font><a href="/healthy-living/">Life Style </a><font face="Arial" color="#006699" style="font-size: 10.5px;">|</font><a href="/healthspot/"> Health Spot </a><font face="Arial" color="#006699" style="font-size: 10.5px;">| </font><a href="/contact-us/">Contact Us | </a><a href="/about-us/">About Us</a>
+
+<div id="foot_note">
+2010 CallMD, All rights reserved<br>
+*CallMD does not provide medical advice, diagnosis or treatment. See additional information.
+</div>
+
+</div>
+<img style="margin-top: 25px;" alt="" src="/media/promo2 images/images/home_64.png">
+</div>
+</div>
+</div>
+
+<script>djConfig = {locale: 'en', suppressLocales: true};</script>
+<script src="/media/js/lead.js?agid=108&agidHost=nexplore&cfgHost=nexplore"></script>
+
+</body>
+
+</html>

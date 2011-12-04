@@ -1,0 +1,263 @@
+body {
+	margin-top: 0px;
+	background-color: #CCC;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#wrap {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 3512px;
+	background-image: url(old/callmd-merch-0107-10.jpg);
+}
+#wrap-A-pg1 {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+#header-a-pg1 {
+	height: 125px;
+	background-image: url(images/bg-a-p1_01.jpg);
+	background-repeat: no-repeat;
+}
+#header-a-pop {
+	height: 125px;
+	background-image: url(images/bg-a-pop_01.jpg);
+}
+#main-a-pg1 {
+	height: 1330px;
+	background-image: url(images/bg-a-p1_02.jpg);
+}
+#main-a-pg2 {
+	background-color: #FFF;
+	padding-top: 15px;
+}
+#footer-a-pg1 {
+	height: 365px;
+	background-image: url(images/bg-a-p1_03.jpg);
+	background-repeat: no-repeat;
+}
+#footer-a-pop {
+	height: 370px;
+	background-image: url(images/bg-a-pop_03.jpg);
+}
+#wrap-A-pop {
+	width: 830px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+#wrap-B-pg2 {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+#wrapp2 {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 1850px;
+	background-image: url(old/callmd-merchp2-0107-10.jpg);
+}
+#wrap-b-pg1 {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 3070px;
+	background-image: url(images/bg-b-p2.jpg);
+}
+.box-flash {
+	padding-top: 120px;
+}
+.box-form {
+	width: 700px;
+	padding-top: 2525px;
+	padding-left: 74px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.box-form-A-pop {
+	width: 815px;
+	padding-left: 74px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.box-form-A-pop-bu0124-10 {
+	width: 700px;
+	padding-left: 74px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.box-form-bpg1 {
+	width: 700px;
+	padding-top: 2070px;
+	padding-left: 74px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.box-300 {
+	width: 300px;
+	float: left;
+}
+.box-400 {
+	width: 510px;
+	float: left;
+}
+.box-700 {
+	width: 700px;
+	float: left;
+}
+.box-order {
+	width: 460px;
+	padding-left: 74px;
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+}
+.box-order-Ap2 {
+	width: 615px;
+	padding-left: 70px;
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+}
+.text12-28 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 28px;
+}
+.text12-25 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+.text24-28 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 28px;
+}
+.text10-14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+}
+.text11-14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #FFF;
+}
+.text16 {
+	font-size: 15px;
+	line-height: 30px;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.text18 {
+	font-size: 20px;
+	line-height: 30px;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.text26-26 {
+	font-size: 26px;
+	line-height: 26px;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.text-freeoffer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+.clearfloat {
+	clear: both;
+}
+.box-300p2 {
+	width: 225px;
+	float: left;
+	background-color: #E8E8E8;
+	margin-left: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.box-agree {
+	padding: 10px;
+	width: 550px;
+	height: 100px;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	background-color: #E8E8E8;
+}
+.testlist-li {
+	margin-left: -15px;
+}
+.box-fineprint {
+	padding-left: 65px;
+	width: 825px;
+	padding-top: 175px;
+}
+.box-fineprint-pop {
+	padding-left: 65px;
+	width: 650px;
+	padding-top: 150px;
+}
+.box-p1-clickcall {
+	width: 500px;
+	padding-top: 18px;
+	float: left;
+	padding-left: 100px;
+}
+.box-p1-logo {
+	width: 240px;
+	padding-top: 10px;
+	float: left;
+	padding-left: 50px;
+}
+.box-p2-clickcall {
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 650px;
+	margin-bottom: 60px;
+}
+.box-a-pop-clickcall {
+	width: 240px;
+	padding-top: 15px;
+	padding-left: 460px;
+}
+.box-p1-joinnow {
+	width: 200px;
+	padding-top: 400px;
+	float: left;
+	padding-left: 320px;
+}
+.box-p1-flash {
+	width: 216px;
+	padding-top: 15px;
+	float: left;
+	padding-left: 288px;
+}
+.box-p1-joinnow2 {
+	width: 200px;
+	padding-left: 320px;
+	padding-top: 125px;
+}
+.box-p1-joinnow3 {
+	width: 200px;
+	padding-left: 320px;
+	padding-top: 505px;
+}
+.box-p1-offer {
+	width: 800px;
+	margin-top: 75px;
+	margin-left: 180px;
+}
+a.bluelink:link {
+	color: #28AAE3;
+	text-decoration: none;
+}
+a.bluelink:hover {
+	color: #E91C22;
+	text-decoration: none;
+}

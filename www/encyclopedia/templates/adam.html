@@ -1,0 +1,99 @@
+{% extends "new_main.html" %}
+
+{% block title %}CallMD: {{ title }}{% endblock %}
+
+{% block extra_css %}
+    <link href="/media/encyclopedia.css" rel="stylesheet" type="text/css" />
+    <!--<script type="text/javascript" src="/media/ADAM/graphics/global/swfobject.js"></script>-->
+    <script type="text/javascript" src="http://default.adam.com/graphics/global/swfobject.js"></script>
+    <script>
+    function popup(url) {
+        if ((screen.width>=1281)) {
+            params  = 'width='+1280;
+            params += ', height='+720;
+            params += ', top=0, left=0'
+        } else {
+            var screenw = (screen.width)- 10;
+            var screenwd = (screenw)*9/16;
+            params  = 'width='+(screenw);
+            params += ', height='+(screenwd);
+            params += ', top=0, left=0'
+        }
+        newwin = window.open(url, 'windownamex', params);
+    }
+    function rollover(evt){
+        evt = evt|| window.event;
+        var node = evt.srcEvent || evt.target;
+        if(node && node.tagName.toLowerCase() == "img" && node.className == "rollover"){
+            var href = node.href;
+            if(href.indexOf("tnails") > 0){
+                node.href = href.replace("tnails", "rollover").replace("t.gif", "r.gif");
+            }
+        }
+    }
+    function rollout(evt){
+        evt = evt|| window.event;
+        var node = evt.srcEvent || evt.target;
+        if(node && node.tagName.toLowerCase() == "img" && node.className == "rollover"){
+            var href = node.href;
+            if(href.indexOf("tnails") < 0){
+                node.href = href.replace("rollover", "tnails").replace("r.gif", "t.gif");
+            }
+        }
+    }
+    </script>
+{% endblock %}
+
+{% block main %}
+
+<div id="contentwrap" style="width:650px;float:left">
+
+
+   <div id="adamtitles"><img src="/media/images/callmd-top.jpg"><br><img src="/media/images/callmd-117_titleimage_multimedia.gif"/></div>
+   
+
+    {{ result|safe }}
+    
+    
+     
+     
+    <div class="ADAMDisclaimer">
+        <div class="ADAMURAC">
+            <script>SSL = "";</script>
+            <script type="text/javascript" src="http://default.adam.com/urac/urac.js"></script>
+            <!--
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <td align="left" valign="top"><img src="http://default.adam.com/urac/square-quart.gif"></td>
+                        <td align="left">
+                            <font size="1" face="Arial, Helvetica, sans-serif">
+                                A.D.A.M., Inc. is accredited by URAC, also known as the American Accreditation HealthCare Commission
+                                (www.urac.org). URAC's <a href="javascript:hwsopen();">accreditation program</a> is an independent
+                                audit to verify that A.D.A.M. follows rigorous standards of quality and accountability. A.D.A.M. is
+                                among the first to achieve this important distinction for online health information and services.
+                                Learn more about A.D.A.M.'s  <a href="javascript:edpolopen();">editorial policy</a>,
+                                <a href="javascript:edopen();">editorial process</a> and <a href="javascript:ppopen();">privacy policy</a>.
+                                A.D.A.M. is also a founding member of Hi-Ethics and subscribes to the principles of the Health on the
+                                Net Foundation (www.hon.ch).
+                            </font>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            -->
+        </div>
+        <div><font size="1" face="Arial, Helvetica, sans-serif">
+            The information provided herein should not be used during any medical emergency or for the diagnosis or treatment of any
+            medical condition. A licensed medical professional should be consulted for diagnosis and treatment of any and all medical
+            conditions. Call 911 for all medical emergencies. Links to other sites are provided for information only &ndash; they do not
+            constitute endorsements of those other sites. ©  1997-2010 A.D.A.M., Inc.  Any duplication or distribution of the information
+            contained herein is strictly prohibited.
+        </font></div>
+        <div align="center">
+            <a target="_blank" href="http://www.adam.com"><img width="77" height="15" border="0" alt="adam.com" src="/media/ADAM/graphics/global/hdr_ftradamlogo.gif"/></a>
+        </div>
+   </div>
+    
+    </div>
+{% endblock %}

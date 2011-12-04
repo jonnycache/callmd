@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{% block title %}Welcome to CallMD&reg;  ::  Care Smarter. Live Healthy.{% endblock %}</title>
+<link href="/media/callmd-052809.css" rel="stylesheet" type="text/css" />
+<!--<link href="/media/callmd-menu.css" rel="stylesheet" type="text/css" />-->
+<link href="/media/callmd-menu4.css" rel="stylesheet" type="text/css" />
+{% block extra_css %}{% endblock %}
+<script type='text/javascript' src='/media/quickmenu.js'></script>
+<script src="/media/Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('/media/images/search2r_02.jpg','/media/images/search2r_05.jpg','/media/images/2r_06.jpg')">
+<div id="wrap">
+<!-- #BeginLibraryItem "/Library/header.lbi" -->
+<div id="header"><a href="/"><img src="/media/images/callmd-logo-w.jpg" alt=""  width="286" height="90" hspace="22" vspace="45" border="0" align="left" /></a>
+  <form method="get" action="/search/">
+    <table width="660" border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="155" valign="top" class="headbg"><div class="headsearchbx"><span class="searchbox-form">
+            <input name="q" type="text" class="text inputblur" onfocus="this.value=''"  value="{% block search_box %}SEARCH HERE – SYMPTOM, WELLNESS, DOCTOR...{% endblock %}" size="48" />
+            </span> </div>
+          <div class="box-search-butt">
+            <input type="image"  src="/media/images/search2_05.jpg" alt="" style="border:none" />
+          </div>
+          <div class="clearfloat-txt0">&nbsp;</div></td>
+      </tr>
+    </table>
+  </form>
+</div>
+<!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/Library/nav.lbi" -->
+<div id="navigation">  <ul>    <li> <a class="qmparent" href="javascript:void(0)"><img src="/media/images/house.png" alt="" style="border:none;vertical-align:bottom" /></a> &nbsp;<a href="/">About Us</a>      <ul>        <li><a href="/members/">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>               <li><a href="/about/">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>        <li><a href="/careers/">Careers</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>        <li><a href="/contact/">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>        <li><a href="/sitemap/">Site Map</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>        <li><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;<img src="/media/images/pulse2.png" alt=""  width="105" height="33" border="0" /> </a> </li>      </ul>    </li>  <li> <a class="qmparent" href="javascript:void(0)"><img src="/media/images/lifestyle.png" alt="" style="border:none;vertical-align:bottom" /></a> &nbsp;<a href="/medical-conditions/">Medical Conditions</a>      <ul>        <li><a href="/medical-conditions/heart-attack/">Heart Attack</a></li>        <li><a href="/medical-conditions/diabetes/">Diabetes</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>        <li><a href="/medical-conditions/stroke/">Stroke</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>        <li><a href="/medical-conditions/cancer/">Cancer</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>        <li><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;<img src="/media/images/pulse2.png" alt=""  width="105" height="33" border="0" /> </a> </li>      </ul>    </li>    <li> <a class="qmparent" href="javascript:void(0)"><img src="/media/images/icon-drugs.png" alt="" style="border:none;vertical-align:bottom" /></a> <a href="/drugs/">&nbsp;Drugs</a>      <ul>        <li><a href="/drugs/vitamins/">Vitamins</a></li>        <li><a href="/drugs/common-cold/">Common Cold</a></li>        <li><a href="/drugs/flu/">Flu</a></li>        <li><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;<img src="/media/images/pulse2.png" alt=""  width="105" height="33" border="0" /> </a> </li>      </ul>    </li>    <li><a class="qmparent" href="javascript:void(0)"><img src="/media/images/icon-weight.png" alt=""  style="border:none;vertical-align:bottom" /></a> <a href="/weight-management/">&nbsp;Weight Mgmt.</a>      <ul>        <li><a href="/weight-loss/">Weight Loss</a></li>        <li><a href="/weight-management/balanced-diet/">Balanced Diet</a></li>        <li><a href="/weight-management/diet-calories/">Diet-Calories</a></li>        <li><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;<img src="/media/images/pulse2.png" alt=""  width="105" height="33" border="0" /> </a> </li>      </ul>    </li>    <li><a class="qmparent" href="javascript:void(0)"><img src="/media/images/icon-mental.png" alt="" style="border:none;vertical-align:bottom" /></a> <a href="/mental-health/">&nbsp;Mental Health</a>      <ul>        <li><a href="/mental-health/anxiety/">Anxiety</a></li>        <li><a href="/mental-health/stress/">Stress</a></li>        <li><a href="/mental-health/depression/">Depression</a></li>        <li><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;<img src="/media/images/pulse2.png" alt=""  width="105" height="33" border="0" /> </a> </li>      </ul>    </li>    <li><a class="qmparent" href="javascript:void(0)"><img src="/media/images/health-spot.png" alt="" style="border:none;vertical-align:bottom" /></a> &nbsp;<a href="/healthy-living/"> Life Style</a>      <ul>        <li><a href="/mens-health/">Men’s Health</a></li>        <li>
+<a href=/womens-health/>Women’s Health</a></li>        <li><a href="/skin-care/">Skin Care</a></li>      <li><a href="/lifestyle/prevention/">Prevention</a></li>        <li><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;<img src="/media/images/pulse2.png" alt=""  width="105" height="33" border="0" /> </a> </li>      </ul>    </li>    <li><a class="qmparent" href="javascript:void(0)"><img src="/media/images/health-spot2.png" alt="" style="border:none;vertical-align:bottom" /></a> &nbsp;<a href="/healthspot/"> Health Spot</a>      <ul>        <li><a href="/hencyclopedia/">Encyclopedia</a></li>        <li><a href="/hvideo/">Videos A to Z</a></li>        <li><a href="/symptom/">Symptom Advisor</a></li>        <li><a href="/hdoctors/">Doctors</a></li>        <li><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;<img src="/media/images/pulse2.png" alt=""  width="105" height="33" border="0" /> </a> </li>      </ul>    </li>    </ul>    </li>  </ul> </div>
+<!-- #EndLibraryItem -->
+<div id="main">
+  <div class="box-left">
+    <div class="box-left3">
+	{% block main %}{% endblock %}
+    </div>
+    <div class="box-left3">
+    <br />
+  <div class="box-left3"><!-- #BeginLibraryItem "/Library/smartcard.lbi" -->
+<div class="box-sm-fade"><img src="/media/images/bar-blue.gif" alt=""  height="4" width="308" /><br />
+      <br />
+      <form action="mailto:skethavarapu@americareservicesinc.com" method="post" enctype="text/plain" name="form1" id="form1">
+        <table border="0" cellpadding="0" cellspacing="0" width="640">
+          <tbody><tr>
+            <td colspan="2" valign="top"><span class="txt-headers" style="color: rgb(22, 74, 123); font-weight: bold;">CallMd SmartCard</span><span class="txtsmart2"><br />
+            Want to know more about any health topic? Just request a SmartCard here. Your request will go to our Nurses and your SmartCard response will be emailed quickly.</span><br /></td>
+          </tr>
+          <tr>
+            <td valign="top">&nbsp;</td>
+            <td valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td valign="top" width="330"><div class="box-right2">
+              <div class="box-sm-col8">What is the topic of your requested SmartCard? *<br />
+                <br />
+                <label>
+                  <input gtbfieldid="2" name="textfield2" id="textfield2" size="37" type="text" />
+                </label>
+                <br />
+                <br />
+                Enter your email address so we can notify you when we complete your request. * <br />
+                <br />
+                <label>
+                  <input gtbfieldid="3" name="textfield3" id="textfield3" value="" size="32" type="text" />
+                </label>
+<br />
+              </div>
+              <br />
+            </div></td>
+            <td valign="top" width="310"><div class="box-right2">
+              <div class="box-sm-col8">Anything else we should know? <br />
+                <br />
+                <label>
+                  <textarea name="textfield4" cols="30" rows="4" id="textfield4"></textarea>
+                  <br />
+                </label>
+                <br />
+                <label>
+                  <input name="button" id="button" value="Submit" type="submit" />
+                </label>
+                <br />
+              </div>
+              <br />
+            </div></td>
+          </tr>
+        </tbody></table>
+      </form>
+  <br />
+    </div><!-- #EndLibraryItem --></div>
+  <br />
+  <br />
+<br />
+</div><br />
+<div class="clearfloat">&nbsp;</div>
+<div>
+  <table width="636" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="324"><!-- #BeginLibraryItem "/Library/google-ad300x250.lbi" -->
+
+<div><script type="text/javascript"><!--
+google_ad_client = "pub-8865216878495686";
+/* 300x250, created 9/7/09 */
+google_ad_slot = "8241593865";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js" /><http://pagead2.googlesyndication.com/pagead/show_ads.js&quot; /> 
+</script>
+</div>
+
+    <!-- #EndLibraryItem --></td>
+      <td width="312" valign="top"><!-- #BeginLibraryItem "/Library/symptom2.lbi" -->
+<div class="box-sm-fade"> <img src="/media/images/bar-purple.gif" alt="" width="308" height="4" /><br />
+    <br />
+    <span class="txt-headers" style="color: #662C91; font-weight: bold;">Check Your Symptoms</span><br />
+<br /><br />
+<span class="box-sm-col" style="color: #000;">    To get started, click on male or female, regardless of age, then the part of the body that is troubling you. Use the Symptom Checker to select parts of the body where you are experiencing symptoms</span>.<a href="/encyclopedia/symptom-advisor/">   
+<br />
+<img src="/media/images/callmd-symptom.png" alt="" width="147" height="131" border="0" align="right" /></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br />
+  
+</div><!-- #EndLibraryItem --></td>
+      </tr>
+  </table>
+</div>
+<br />
+  </div>
+  <div class="box-right">
+    <div class="box-sm-fade"><img src="/media/images/bar-purple.gif"  alt="" width="308" height="4" /><br />
+      <br />
+    <span class="txt-headers" style="font-weight: bold; color: #662C91;">Testimonials</span><br />
+      <br />
+      <br />
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="292" height="200" align="right" id="FlashID" title="quotestag2">
+        <param name="movie" value="/media/images/quotes.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="transparent" />
+        <param name="swfversion" value="6.0.65.0" />
+        <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don‚Äôt want users to see the prompt. -->
+        <param name="expressinstall" value="www/templates/Scripts/expressInstall.swf" />
+        <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+        <!--[if !IE]>-->
+        <object data="/media/images/quotes.swf" type="application/x-shockwave-flash" width="292" height="200" align="right">
+          <!--<![endif]-->
+          <param name="quality" value="high" />
+          <param name="wmode" value="transparent" />
+          <param name="swfversion" value="6.0.65.0" />
+          <param name="expressinstall" value="www/templates/Scripts/expressInstall.swf" />
+          <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+          <div>
+            <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+<br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+    <br />
+    <br />
+	
+<br />
+<br />
+	
+<div class="box-sm-fade"><img src="/media/images/bar-blue.gif" alt="" width="308" height="4" /><br />
+      <img src="/media/images/bikes-w.jpg" alt="" width="136" height="91" align="right" /><br />
+  <span class="txt-headers" style="font-weight: bold; color: #26487E;">LifeStyle</span><br />
+  <br />
+<br />
+  <div class="box-sm-col"> <a href="/encyclopedia/1/002393/" class="blacklink"> Healthy Living</a><br />
+    <a href="/encyclopedia/1/001921/" class="blacklink"> Preventive Health Care</a><br />
+    <a href="/womens-health/" class="blacklink">Women's Health</a><br />
+    <a href="/mens-health/" class="blacklink">Men's Health</a><br />
+    <a href="/children-health/" class="blacklink">Children's Health</a><br />
+    <a href="/dental-health/" class="blacklink">Dental Health</a><br />
+  </div>
+
+<div class="box-sm-col"><br />
+  <a href="/emotional-health/" class="blacklink">Emotional Health</a><br />
+    <br />
+  <a href="/encyclopedia/home/" class="blacklink">See More Great Topics</a></div>
+
+      
+  <div class="clearfloat">&nbsp;</div>
+
+    
+</div><!-- #EndLibraryItem --><br />
+<br /><br /><!-- #BeginLibraryItem "/Library/google-ad300x250.lbi" -->
+
+<div><script type="text/javascript"><!--
+google_ad_client = "pub-8865216878495686";
+/* 300x250, created 9/7/09 */
+google_ad_slot = "8241593865";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js" ><http://pagead2.googlesyndication.com/pagead/show_ads.js&quot; />
+</script></div>
+
+    <!-- #EndLibraryItem --><br /><!-- #BeginLibraryItem "/Library/top3.lbi" -->
+<div class="box-sm-fade"><img src="/media/images/bar-green.gif" alt="" width="308" height="4" /><img src="/media/images/girl-field-w.jpg" alt="" width="136" height="90" align="right" /><br />
+  <br />
+<span class="txt-headers" style="color: #39B44A; font-weight: bold;">Top Health Topics<br />
+<br />
+</span><br />
+      <div class="box-sm-col"><a href="/encyclopedia/1/000147/" class="blacklink"> 
+      1- &nbsp;Heart Disease</a><br />
+      <a href="/encyclopedia/1/001214/" class="blacklink"> 2- &nbsp;Diabetes</a> <br />
+      <a href="/encyclopedia/1/000726/" class="blacklink"> 3- &nbsp;Stroke</a><br />
+      <a href="/encyclopedia/1/001289/" class="blacklink"> 4- &nbsp;Cancer</a> <br />
+      <a href="/encyclopedia/1/007297/" class="blacklink"> 5- &nbsp;Obesity</a></div>
+      
+      <div class="clearfloat">&nbsp;</div>
+
+</div><!-- #EndLibraryItem --><br /><!-- #BeginLibraryItem "/Library/bloging.lbi" -->
+<div class="box-sm-fade"><img src="/media/images/bar-red.gif" alt="" width="308" height="4" /><br />
+  <img src="/media/images/couple-house.jpg" alt="" width="92" height="62" align="right" /><br />
+<span class="txt-headers" style="font-weight: bold; color: #C9161E;">Blogging to better health</span><br />
+      <br />
+      <br />
+      <div class="box-sm-col2">
+        <table style="width:176;height:32;" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="129">Breast Cancer</td>
+            <td width="41">(19,233)</td>
+          </tr>
+          <tr>
+            <td>Children Health issues</td>
+            <td>(10,987)</td>
+          </tr>
+          <tr>
+            <td>Prostrate Health</td>
+            <td>(2389)</td>
+          </tr>
+          <tr>
+            <td>Diabetes </td>
+            <td>(8376)</td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="clearfloat">&nbsp;</div>
+    </div><!-- #EndLibraryItem --><br />
+    <br />
+    <br />
+    <br />
+  </div><br /><br />
+  <br /><br /><br />
+  <br /><br /><br />
+  <br /><br /><br /><br />
+<br />
+<br />
+</div><!-- #BeginLibraryItem "/Library/footer.lbi" -->
+<div id="footer">
+  <br />
+  <div class="box-left2"><br />
+    <a href="/about/" class="blacklink">About CallMD</a>® | <a href="/media/pdfs/Terms-of-Use.pdf" class="blacklink">Terms of Use</a> | <a href="/media/pdfs/Privacy-Policy.pdf" class="blacklink">Privacy Policy</a> | <a href="/sitemap/" class="blacklink">Site Map</a> | <a href="/careers/" class="blacklink">Careers</a> | <a href="/contact/" class="blacklink">Contact Us</a><br />
+    <br />
+    <a href="http://americareservicesinc.com/" target="_blank" class="blacklink">Americare Services, Inc.</a> | <a href="#" target="_blank" class="blacklink">Partners</a> | <a href="/encyclopedia/home/" class="blacklink">CallMD Multimedia Library</a><br />
+    <br />
+    ©2005-2009 CallMD a Division of Americare Services, Inc. All rights reserved.<br />
+    CallMD® does not provide medical advice, diagnosis or treatment. See additional information. <br />
+<br />
+  </div>
+  <div class="box-verisgn">
+    <table width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose VeriSign SSL for secure e-commerce and confidential communications.">
+      <tr>
+        <td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=www.callmd.com&amp;size=M&amp;use_flash=YES&amp;use_transparent=YES&amp;lang=en"></script>
+          <br />
+          <a href="http://www.verisign.com/ssl-certificate/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 7px verdana,sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">ABOUT SSL CERTIFICATES</a></td>
+      </tr>
+    </table>
+  </div>
+
+</div><!-- #EndLibraryItem --><div class="clearfloat">&nbsp;</div>
+<div class="bottom"><!-- #BeginLibraryItem "/Library/google-ad728x90-3.lbi" --><br />
+
+
+<table width="787" height="38" border="0" cellpadding="0" cellspacing="0">
+    
+    <!-- PubMatic ad tag (Javascript) : bottom callmd ad | http://callmd.com | 728 x 90 Leaderboard -->
+<script type="text/javascript">
+var pubId=15746;
+var siteId=22185;
+var kadId=16735;
+var kadwidth=728;
+var kadheight=90;
+var kadtype=1;
+</script>
+<script type="text/javascript" src="http://ads.pubmatic.com/AdServer/js/showad.js">
+ </script>
+  </table>
+    <!-- #EndLibraryItem --></div>
+</div>
+<script type="text/javascript">
+<!--
+swfobject.registerObject("FlashID");
+//-->
+</script>
+
+
+<map name="Map" id="Map">
+  <area shape="rect" alt="" coords="33,169,216,223" href="/enewsletter/" />
+</map>
+
+
+<script type="text/javascript">               
+ 
+    function submit()
+     {
+        var name = document.getElementById("enter").value;
+        var str = "http://174.129.38.14/search/show?q=" + name;
+       window.open(str, "winopen");
+ 
+    }
+</script>
+
+
+
+<script type="text/javascript">
+document.write(unescape("%3Cscript src='"+((document.location.protocol=="https:") ? "https:" : "http:")+"//tracker.wordstream.com/ngt.js'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if (window._ngt)
+{
+  var tracker = new _ngt("WS-AB9175");
+  tracker.track();
+}
+</script>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6520601-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+
+<script src="http://vp360hosting.com/BASE_CODE/javascripts/referrer.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+
+var vp360JsUrl = "http://vp360hosting.com/BASE_CODE/flash_script.loader.php?client_id=CALLMD&video_id=135&referrer_engine="+referrer_engine+"&referrer_keyword="+referrer_keyword;
+
+var vp360Browser = document.all && !window.opera;
+  var vp360BrowserBody = ( document.compatMode=='CSS1Compat' ) ?  document.documentElement : document.body;
+  var vp360BrowserHeight = ( vp360Browser ) ? vp360BrowserBody.clientHeight : window.innerHeight;
+
+  var vp360BrowserWidth = ( vp360Browser ) ? vp360BrowserBody.clientWidth : window.innerWidth;
+  var vp360BrowserTop = ( vp360Browser ) ? vp360BrowserBody.scrollTop : window.pageYOffset;
+  var vp360BrowserLeft = ( vp360Browser ) ? vp360BrowserBody.scrollLeft : window.pageXOffset;
+
+
+  function  _vp360Init () {
+
+  var vp360DomElement  = document.createElement( 'script' );
+  vp360DomElement.setAttribute( 'type', 'text/javascript' );
+  vp360DomElement.setAttribute( 'src', vp360JsUrl  );
+
+  var vp360Container = document.body.firstChild;
+  ( vp360Container ) ? document.body.insertBefore( vp360DomElement, vp360Container ) :  document.body.appendChild( vp360DomElement );
+
+  }
+
+  var key_value = "myTestCookie=true";
+
+  var foundCookie = 0;
+
+  // Get all the cookies from this site and store in an array
+  var cookieArray = document.cookie.split(';');
+
+  // Walk through the array
+  for(var i=0;i < cookieArray.length;i++)
+
+        {
+               var checkCookie = cookieArray[i];
+        // Remove any leading spaces
+               while (checkCookie.charAt(0)==' ')
+               {
+                 checkCookie = checkCookie.substring(1,checkCookie.length);
+
+               }
+       
+        // Look for cookie set by key_value
+                if (checkCookie.indexOf(key_value) == 0)
+               {
+                  //alert("Found Cookie ");
+            // The cookie was found so set the variable
+
+
+                   foundCookie = 1;
+               }
+    }
+    // Check if a cookie has been found
+    if ( foundCookie == 0)
+    {
+        // The key_value cookie was not found so set it now
+        document.cookie = key_value;
+
+        _vp360Init();
+    }  
+</script>
+</body>
+</html>

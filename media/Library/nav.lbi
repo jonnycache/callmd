@@ -1,0 +1,86 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="nav">
+    
+    <ul id="qm0" class="qmmc">
+
+	<li><a class="qmparent" href="javascript:void(0)"><img src="../images/house.png" alt="" name="" width="17" height="17" border="0" align="absbottom"> &nbsp;Home &amp; About Us</a>
+	  <ul>
+	    <li><a href="../index.html">Home</a></li>
+	    <li><a href="../about.html">About Us</a></li>
+	    <li><a href="../careers.html">Careers</a></li>
+	    <li><a href="../contact.html">Contact Us</a></li>
+	    <li><a href="../sitemap.html">Site Map</a></li>
+	    <li><a href="javascript:void(0)" style="background-image:url(../images/pulse.png);background-position:right bottom;background-repeat: no-repeat;">&nbsp;</a><br>
+	      <br>
+        </li>
+      </ul>
+	  </li>
+	<li><span class="qmdivider qmdividery" ></span><br>
+   	  </li>
+      <li><a class="qmparent" href="javascript:void(0)"><img src="../images/shop.png" alt="" name="" width="17" height="17" border="0" align="absbottom"> &nbsp;Services &amp; Shop</a>
+          <ul>
+          <li><a href="http://www.callmd.com/promo1/index.html" target="_self">BUY Now!</a></li>
+            <li><a href="../callmd.html">CallMD</a></li>
+            <li><a href="../callmd-ultimate.html">CallMD Ultimate</a></li>
+            <li><a href="http://www.callmd.optumhealthallies.com">CallMD Ultimate Member Login</a></li>
+            <li><a href="../travel.html">Travel</a></li>
+            <li><a href="javascript:void(0)" style="background-image:url(../images/pulse.png);background-position:right bottom;background-repeat: no-repeat;">&nbsp;</a><br>
+              <br>
+            </li>
+          </ul>
+      </li>
+      <li><span class="qmdivider qmdividery" ></span><br>
+      </li>
+      <li><a class="qmparent" href="javascript:void(0)"><img src="../images/health-spot.png" alt="" name="" width="17" height="17" border="0" align="absbottom"> &nbsp;Health Spot</a>
+        <ul>
+          <li><a href="http://callmd.com/HIE Multimedia/200000.htm">Encyclopedia</a></li>
+          <li><a href="http://callmd.com/HIE Multimedia/vidmain.htm">Videos A to Z</a></li>
+          <li><a href="http://callmd.com/Symptom Checker/44/000001.htm">Symptom Advisor</a></li>
+          <li><a href="http://callmd.com/HIE Multimedia/diseidxa.htm">Disease &amp; conditions</a></li>
+          <li><a href="../doctors.html">Doctors</a></li>
+          <li><a href="javascript:void(0)" style="background-image:url(../images/pulse.png);background-position:right bottom;background-repeat: no-repeat;">&nbsp;</a><br>
+            <br>
+          </li>
+        </ul>
+      </li>
+      <li><span class="qmdivider qmdividery" ></span></li>
+ 
+<li><a class="qmparent" href="javascript:void(0)"><img src="../images/lifestyle.png" alt="" name="" width="17" height="17" border="0" align="absbottom"> &nbsp;LIfeStyle</a>
+
+		  <ul>
+		<li><a href="http://callmd.com/HIE Multimedia/nutridxa.htm">Nutrition</a></li>
+        	<li><a href="http://callmd.com/HIE Multimedia/sympidxa.htm">Symptoms </a></li>
+            	<li><a href="http://callmd.com/HIE Multimedia/testidxa.htm">Tests </a></li>
+            	<li><a href="http://callmd.com/HIE Multimedia/surgidxa.htm">Surgeries </a></li>
+            	<li><a href="http://callmd.com/HIE Multimedia/acciidxa.htm">Injuries</a></li>
+            	<li><a href="http://callmd.com/HIE Multimedia/poisidxa.htm">Poisons</a></li>
+            	<li><a href="javascript:void(0)" style="background-image:url(../images/pulse.png);background-position:right bottom;background-repeat: no-repeat;">&nbsp;</a><br>
+            	  <br>
+          	  </li>
+      </ul>
+</li>
+        
+             	<li><span class="qmdivider qmdividery" ></span></li>
+             	<li><a class="qmparent" href="javascript:void(0)"><img src="../images/partners.png" alt="" name="" width="17" height="17" border="0" align="absbottom"> &nbsp;Partners</a>
+                  <ul>
+                    <li><a href="http://www.ccgfamily.com" target="_blank">Cost Containment</a></li>
+                    <li><a href="http://www.edocamerica.com" target="_blank">eDoc America</a></li>
+                    <li><a href="http://medzio.com" target="_blank">Medizio</a></li>
+                    <li><a href="http://dentalplans.com/index.asp" target="_blank">Dental Plans</a></li>
+                    <li><a href="javascript:void(0)" style="background-image:url(../images/pulse.png);background-position:right bottom;background-repeat: no-repeat;">&nbsp;</a><br>
+                      <br>
+                    </li>
+                  </ul>
+                </li>
+   	  <li class="qmclear">&nbsp;</li>
+
+</ul>
+
+<!-- Create Menu Settings: (Menu ID, Is Vertical, Show Timer, Hide Timer, On Click ('all' or 'lev2'), Right to Left, Horizontal Subs, Flush Left, Flush Top) -->
+<script type="text/javascript">qm_create(0,false,0,250,false,false,false,false,false);</script>
+
+
+<script src='http://www.mycssmenu.com/qmv6/qm_visual.js' type='text/css' href="callmd-menu.css" rel="stylesheet"></script>
+
+    
+</div>

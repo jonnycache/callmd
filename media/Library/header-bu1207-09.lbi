@@ -1,0 +1,33 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<link href="../callmd-052809.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+-->
+</style>
+
+<body><div id="header"><a href="../index.html"><img src="../images/callmd-logo-w.jpg" alt="" name="" width="286" height="79" hspace="22" vspace="50" border="0" align="left" /></a>
+
+
+  <form name="form1" method="get" action="http://174.129.38.14/search/show ">
+
+<table width="660" border="0" align="right" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="155" valign="top" class="headbg"><div class="headsearchbx"><span class="searchbox-form">
+        <input name="q" type="text" class="text inputblur" onfocus="this.value=''"  value="SEARCH HERE – SYMPTOM, WELLNESS, DOCTOR..." size="48" />
+        </span> </div>
+        <div class="box-search-butt"><input type="image"  src="../images/search2_05.jpg" alt="" name="" width="96" height="30" border="0"></div>
+<div class="clearfloat-txt0">&nbsp;</div></td>
+      </tr>
+  </table>
+    </form>
+  
+</div>

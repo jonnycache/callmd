@@ -1,0 +1,53 @@
+body { font: 12px Tahoma, Geneva, sans-serif; }
+
+/* panel */
+.panel, .panelcollapsed 
+{
+	background: #eee;
+	margin: 3px;
+	padding: 0px 0px 5px;
+	width: 600px;
+	
+}
+
+/* panel heading */
+.panel h2, .panelcollapsed h2 
+{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 4px;
+	background: url(gradient_up.jpg);
+	border-bottom: 1px solid #999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-top: 0px solid #FFF;
+	border-right: 0px solid #FFF;
+	border-left: 0px solid #FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+
+/* panel heading on rollover */
+.panel h2:hover, .panelcollapsed h2:hover { background-color: #A9BCEF; }
+
+/* heading of a collapsed panel */
+.panelcollapsed h2 
+{
+	background: url(gradient_dn.jpg);
+	border-color: #CCC;
+	font-family: "Times New Roman", Times, serif;
+	}
+
+/* panel content - do not set borders or paddings */
+.panelcontent 
+{ 
+	background: #EEE; 
+	overflow: hidden;
+}
+
+/* collapsed panel content */
+.panelcollapsed .panelcontent { display: none;
+}
+.panelcontent h3{
+	font-size:12px;
+}

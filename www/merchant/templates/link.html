@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Processing Transaction</title>
+	<script>
+		function onLoad(){
+			document.getElementById('upc_form').submit();
+		}
+	</script>
+</head>
+<body onload="onLoad()">
+    <div style="display: none;">
+        <form method="post" id="upc_form" name="upc_form" action="{{ url }}">
+            {% for field in fields %}
+                {% ifequal field.0 "url_finish" %}
+                    <input type="hidden" name="{{ field.0 }}" value="{{ field.1|safe }}">
+                {% else %}
+                    <input type="hidden" name="{{ field.0 }}" value="{{ field.1 }}">
+                {% endifequal %}
+            {% endfor %}
+        </form>
+    </div>
+    <center>Processing Transaction&hellip;</center>
+</body>
+</html>

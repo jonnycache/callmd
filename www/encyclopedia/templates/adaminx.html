@@ -1,0 +1,42 @@
+{% extends "new_main.html" %}
+
+{% block title %}CallMD: {{ title }}{% endblock %}
+
+{% block extra_css %}
+    <link href="/media/encyclopedia.css" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block main %}
+    <div><img src="/media/images/callmd-top.jpg"><br><img src="/media/images/callmd-117_titleimage_multimedia.gif"/></div>
+    <div class="ADAM">
+        <table class="links">
+            <tbody>
+                <tr>
+                    <td class="header">Browse:</td>
+                    {% for letter in index %}
+                        <td {% ifequal letter.name page %}class="current"{% endifequal %}>
+                            {% if letter.exist %}
+                                <a href="./?{% if subContent %}content={{ subContent|urlencode }}&{% endif %}page={{ letter.name|urlencode }}">{{ letter.title }}</a>
+                            {% else %}
+                                <span class="inactive">{{ letter.title }}</span>
+                            {% endif %}
+                        </td>
+                    {% endfor %}
+                </tr>
+            </tbody>
+        </table>
+        <h1>{{ title }}</h1>
+		<p>Found {{ count }} article{{ count|pluralize }}.</p>
+        <div class="left-index">
+            {% for x in left %}
+                <div class="result"><a href="{{ x.get_absolute_url }}">{{ x.title }}</a></div>
+            {% endfor %}
+        </div>
+        <div class="right-index">
+            {% for x in right %}
+                <div class="result"><a href="{{ x.get_absolute_url }}">{{ x.title }}</a></div>
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+    </div>
+{% endblock %}
